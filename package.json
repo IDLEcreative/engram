@@ -1,0 +1,52 @@
+{
+  "name": "engram-mcp",
+  "version": "1.0.0",
+  "description": "Engram: AI Memory System with Spreading Activation, Hebbian Learning, and Dream Consolidation",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsx watch index.ts",
+    "test": "jest",
+    "lint": "eslint . --ext .ts",
+    "dream": "tsx scripts/run-dream.ts",
+    "decay": "tsx scripts/run-decay.ts"
+  },
+  "keywords": [
+    "mcp",
+    "memory",
+    "ai",
+    "spreading-activation",
+    "hebbian-learning",
+    "cognitive-architecture"
+  ],
+  "author": "IDLEcreative",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "openai": "^4.0.0",
+    "pg": "^8.11.0",
+    "zod": "^3.22.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.0",
+    "@types/node": "^20.0.0",
+    "@types/pg": "^8.10.0",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.0",
+    "tsx": "^4.0.0",
+    "typescript": "^5.3.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IDLEcreative/engram.git"
+  },
+  "bugs": {
+    "url": "https://github.com/IDLEcreative/engram/issues"
+  },
+  "homepage": "https://github.com/IDLEcreative/engram#readme"
+}

@@ -1,0 +1,2395 @@
+[
+  {
+    "id": "1a8be55d-e43d-4bc0-ae41-5834fcd4b827",
+    "agent": "test-agent",
+    "query": "Should we refactor auth module?",
+    "recalled_memory_ids": [
+      "b66296fd-a7e7-45f4-9dd8-450fc191fe05",
+      "b67040dc-c2fb-41ba-a274-f5676917f376",
+      "b7c85bea-90ea-43f2-9c4b-b9d6311f7673"
+    ],
+    "reasoning": "Auth module has high complexity (O(n²) in token refresh). Previous refactors reduced bugs by 40%. High confidence in success.",
+    "chosen_memory_id": "b67040dc-c2fb-41ba-a274-f5676917f376",
+    "confidence": 0.85,
+    "alternatives": [
+      {
+        "score": 0.6,
+        "memoryId": "b66296fd-a7e7-45f4-9dd8-450fc191fe05",
+        "reasoning": "Alternative approach: incremental fixes"
+      },
+      {
+        "score": 0.4,
+        "memoryId": "b7c85bea-90ea-43f2-9c4b-b9d6311f7673",
+        "reasoning": "Alternative: defer until v2"
+      }
+    ],
+    "outcome": "success",
+    "outcome_notes": "Refactor complete: reduced complexity from O(n²) to O(n), tests pass",
+    "created_at": "2025-12-28T22:25:52.081109+00:00"
+  },
+  {
+    "id": "7ccfccc8-eca8-4ada-828e-66647ce89f33",
+    "agent": "claudius",
+    "query": "Should I upgrade Node.js version?",
+    "recalled_memory_ids": [
+      "2c402b82-b588-4710-9d91-3cf49a7273f3",
+      "e5e62fa9-4324-4d7f-b115-7f5cf8a42ff2",
+      "8db487ed-b0b4-46fc-baa9-373c29b89cfd",
+      "094cc8d0-4734-4d6c-add7-6b23ecf3b9e8"
+    ],
+    "reasoning": "High confidence decision based on past successes",
+    "chosen_memory_id": "2c402b82-b588-4710-9d91-3cf49a7273f3",
+    "confidence": 0.88,
+    "alternatives": [
+      {
+        "score": 0.3005734314883971,
+        "memoryId": "ba30b8ee-4889-4c29-afcb-d4b55d888d0e",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.41797714209302284,
+        "memoryId": "1e4d0b47-acbe-43ae-83ee-e5fb5309eea3",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.3955118300462016,
+        "memoryId": "b21b5339-3d1e-479e-86d8-2e323cf4e3e9",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.4235644623951329,
+        "memoryId": "30b6ffe1-84ae-4464-8da4-043da334cce3",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.3395240141845935,
+        "memoryId": "d248a887-b587-4376-8a3a-41b638c3d7de",
+        "reasoning": "Alternative memory considered but not selected"
+      }
+    ],
+    "outcome": "success",
+    "outcome_notes": "Decision executed successfully",
+    "created_at": "2025-12-26T14:07:57.504+00:00"
+  },
+  {
+    "id": "f684e861-d2b5-41a8-8190-31c2b817ab4c",
+    "agent": "claudius",
+    "query": "Should I migrate to new server?",
+    "recalled_memory_ids": [
+      "dc75101b-8b52-45f1-9c6b-6a01c9e24283",
+      "e5e62fa9-4324-4d7f-b115-7f5cf8a42ff2",
+      "8db487ed-b0b4-46fc-baa9-373c29b89cfd",
+      "094cc8d0-4734-4d6c-add7-6b23ecf3b9e8"
+    ],
+    "reasoning": "High confidence decision based on past successes",
+    "chosen_memory_id": "dc75101b-8b52-45f1-9c6b-6a01c9e24283",
+    "confidence": 0.89,
+    "alternatives": [
+      {
+        "score": 0.5814129393039265,
+        "memoryId": "f6da0302-b445-4e26-8a0b-1ba0bb9f1c2f",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.5071904317303049,
+        "memoryId": "58c0f7f1-c906-4610-bbf5-282eca5e022f",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.4606926472836525,
+        "memoryId": "0a88a213-c5b9-47d6-a07a-5649b5673a6b",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.3864050107699175,
+        "memoryId": "ba30b8ee-4889-4c29-afcb-d4b55d888d0e",
+        "reasoning": "Alternative memory considered but not selected"
+      }
+    ],
+    "outcome": "success",
+    "outcome_notes": "Decision executed successfully",
+    "created_at": "2025-12-27T23:39:57.086+00:00"
+  },
+  {
+    "id": "02b061a5-3d63-4502-9796-2d2eb91e48f9",
+    "agent": "claudius",
+    "query": "Should I scale horizontally?",
+    "recalled_memory_ids": [
+      "af4547f2-0f13-4b5d-ab84-440f344b8914",
+      "e5e62fa9-4324-4d7f-b115-7f5cf8a42ff2",
+      "8db487ed-b0b4-46fc-baa9-373c29b89cfd",
+      "094cc8d0-4734-4d6c-add7-6b23ecf3b9e8"
+    ],
+    "reasoning": "High confidence decision based on past successes",
+    "chosen_memory_id": "af4547f2-0f13-4b5d-ab84-440f344b8914",
+    "confidence": 0.89,
+    "alternatives": [
+      {
+        "score": 0.5121378615955561,
+        "memoryId": "0768bc39-6d9f-4a0f-ae57-1118b59a2a97",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.5506620298371911,
+        "memoryId": "f37afaba-aa8e-4e09-a97f-21f897b90a4e",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.45034660795022585,
+        "memoryId": "dc75101b-8b52-45f1-9c6b-6a01c9e24283",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.5068128914197836,
+        "memoryId": "bcf2ed32-3858-4d66-b736-d8b3770d486c",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.5661538981448507,
+        "memoryId": "0a88a213-c5b9-47d6-a07a-5649b5673a6b",
+        "reasoning": "Alternative memory considered but not selected"
+      }
+    ],
+    "outcome": "success",
+    "outcome_notes": "Decision executed successfully",
+    "created_at": "2025-12-27T08:08:51.757+00:00"
+  },
+  {
+    "id": "67b2f489-210b-4aaf-af7e-57f696164eb0",
+    "agent": "claudius",
+    "query": "Should I optimize image compression?",
+    "recalled_memory_ids": [
+      "a84c1a3d-2130-4e90-9f3c-1c0231adcb28",
+      "e5e62fa9-4324-4d7f-b115-7f5cf8a42ff2",
+      "8db487ed-b0b4-46fc-baa9-373c29b89cfd",
+      "094cc8d0-4734-4d6c-add7-6b23ecf3b9e8"
+    ],
+    "reasoning": "High confidence decision based on past successes",
+    "chosen_memory_id": "a84c1a3d-2130-4e90-9f3c-1c0231adcb28",
+    "confidence": 0.85,
+    "alternatives": [
+      {
+        "score": 0.31813281609988975,
+        "memoryId": "1e4d0b47-acbe-43ae-83ee-e5fb5309eea3",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.43327761751727034,
+        "memoryId": "0a88a213-c5b9-47d6-a07a-5649b5673a6b",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.5588571945505372,
+        "memoryId": "7abcd041-f517-45a9-8bec-0415836e5d1d",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.48507558029769504,
+        "memoryId": "094cc8d0-4734-4d6c-add7-6b23ecf3b9e8",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.539310049515898,
+        "memoryId": "919c268f-4758-4f84-a2c4-ac78c5743fad",
+        "reasoning": "Alternative memory considered but not selected"
+      }
+    ],
+    "outcome": "success",
+    "outcome_notes": "Decision executed successfully",
+    "created_at": "2025-12-29T13:53:37.868+00:00"
+  },
+  {
+    "id": "4096d391-a9e8-40b6-a8c2-1745219d54da",
+    "agent": "claudius",
+    "query": "Is memory usage concerning (8GB/16GB)?",
+    "recalled_memory_ids": [
+      "af4b2c53-d8bf-4a5e-9878-08b5b7afb87a",
+      "e5e62fa9-4324-4d7f-b115-7f5cf8a42ff2",
+      "8db487ed-b0b4-46fc-baa9-373c29b89cfd",
+      "094cc8d0-4734-4d6c-add7-6b23ecf3b9e8"
+    ],
+    "reasoning": "High confidence decision based on past successes",
+    "chosen_memory_id": "af4b2c53-d8bf-4a5e-9878-08b5b7afb87a",
+    "confidence": 0.87,
+    "alternatives": [
+      {
+        "score": 0.3737385840650886,
+        "memoryId": "f37afaba-aa8e-4e09-a97f-21f897b90a4e",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.4947838698921332,
+        "memoryId": "dc1fed35-6f22-4c4b-a835-1cfcd35b7f72",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.5221424633909546,
+        "memoryId": "067c0e76-08b5-4610-a5f6-d2af85241531",
+        "reasoning": "Alternative memory considered but not selected"
+      }
+    ],
+    "outcome": "success",
+    "outcome_notes": "Decision executed successfully",
+    "created_at": "2025-12-30T21:48:56.096+00:00"
+  },
+  {
+    "id": "b3588484-00b6-4fad-b604-df3f7088b75d",
+    "agent": "claudius",
+    "query": "Is backup job failing silently?",
+    "recalled_memory_ids": [
+      "e5e62fa9-4324-4d7f-b115-7f5cf8a42ff2",
+      "e5e62fa9-4324-4d7f-b115-7f5cf8a42ff2",
+      "8db487ed-b0b4-46fc-baa9-373c29b89cfd"
+    ],
+    "reasoning": "Uncertain decision with limited relevant memories",
+    "chosen_memory_id": "e5e62fa9-4324-4d7f-b115-7f5cf8a42ff2",
+    "confidence": 0.53,
+    "alternatives": [
+      {
+        "score": 0.30692582072917424,
+        "memoryId": "9f01618b-826a-40e5-8541-405d01acacb4",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.32251291746109517,
+        "memoryId": "919c268f-4758-4f84-a2c4-ac78c5743fad",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.38321136399839373,
+        "memoryId": "f37afaba-aa8e-4e09-a97f-21f897b90a4e",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.3580649039004543,
+        "memoryId": "ed20c64a-0d3f-44a5-8905-aaacf9d5c1d8",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.3955520991222275,
+        "memoryId": "d7b705cd-889b-402c-bc18-39a43c3980a8",
+        "reasoning": "Alternative memory considered but not selected"
+      }
+    ],
+    "outcome": "failure",
+    "outcome_notes": "Decision did not produce expected results",
+    "created_at": "2025-12-27T23:11:43.957+00:00"
+  },
+  {
+    "id": "99bd7fa9-b4f2-4061-9122-492d8df24ad5",
+    "agent": "claudius",
+    "query": "Should I add more indexes?",
+    "recalled_memory_ids": [
+      "58c0f7f1-c906-4610-bbf5-282eca5e022f",
+      "e5e62fa9-4324-4d7f-b115-7f5cf8a42ff2",
+      "8db487ed-b0b4-46fc-baa9-373c29b89cfd"
+    ],
+    "reasoning": "Uncertain decision with limited relevant memories",
+    "chosen_memory_id": "58c0f7f1-c906-4610-bbf5-282eca5e022f",
+    "confidence": 0.51,
+    "alternatives": [
+      {
+        "score": 0.4542963900106166,
+        "memoryId": "7ad8d40e-56f3-4813-b740-f69d9615f983",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.597811284725034,
+        "memoryId": "067c0e76-08b5-4610-a5f6-d2af85241531",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.40008291886714015,
+        "memoryId": "786342ef-1a5f-4611-8307-9518b3e0c61c",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.4168628165695628,
+        "memoryId": "8db487ed-b0b4-46fc-baa9-373c29b89cfd",
+        "reasoning": "Alternative memory considered but not selected"
+      }
+    ],
+    "outcome": "failure",
+    "outcome_notes": "Decision did not produce expected results",
+    "created_at": "2025-12-29T06:07:18.855+00:00"
+  },
+  {
+    "id": "f3a5a83a-9e2f-4d1e-8df3-69ef1eb07e8b",
+    "agent": "claudius",
+    "query": "Should I enable caching for this API?",
+    "recalled_memory_ids": [
+      "9dcf4622-f753-4f8d-9b3c-371d0cb0b56b",
+      "e5e62fa9-4324-4d7f-b115-7f5cf8a42ff2",
+      "8db487ed-b0b4-46fc-baa9-373c29b89cfd"
+    ],
+    "reasoning": "Uncertain decision with limited relevant memories",
+    "chosen_memory_id": "9dcf4622-f753-4f8d-9b3c-371d0cb0b56b",
+    "confidence": 0.53,
+    "alternatives": [
+      {
+        "score": 0.5027777903977984,
+        "memoryId": "13927948-7778-472b-a6bf-3a2b2b5795d5",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.32337424134335485,
+        "memoryId": "1e4d0b47-acbe-43ae-83ee-e5fb5309eea3",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.46224647396919094,
+        "memoryId": "bcf2ed32-3858-4d66-b736-d8b3770d486c",
+        "reasoning": "Alternative memory considered but not selected"
+      }
+    ],
+    "outcome": "failure",
+    "outcome_notes": "Decision did not produce expected results",
+    "created_at": "2025-12-29T21:07:56.114+00:00"
+  },
+  {
+    "id": "b9449047-5401-4578-b41c-2c2310d842eb",
+    "agent": "claudius",
+    "query": "Is memory usage concerning (8GB/16GB)?",
+    "recalled_memory_ids": [
+      "13927948-7778-472b-a6bf-3a2b2b5795d5",
+      "e5e62fa9-4324-4d7f-b115-7f5cf8a42ff2",
+      "8db487ed-b0b4-46fc-baa9-373c29b89cfd"
+    ],
+    "reasoning": "Uncertain decision with limited relevant memories",
+    "chosen_memory_id": "13927948-7778-472b-a6bf-3a2b2b5795d5",
+    "confidence": 0.42,
+    "alternatives": [
+      {
+        "score": 0.45824363979842414,
+        "memoryId": "f9407cab-d214-410a-aea3-70d402fa2ef1",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.5186572829868855,
+        "memoryId": "ba30b8ee-4889-4c29-afcb-d4b55d888d0e",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.43825352006641816,
+        "memoryId": "b6b09252-0b2e-4c66-9ac1-a749007a6805",
+        "reasoning": "Alternative memory considered but not selected"
+      }
+    ],
+    "outcome": "failure",
+    "outcome_notes": "Decision did not produce expected results",
+    "created_at": "2025-12-30T09:23:44.523+00:00"
+  },
+  {
+    "id": "94233811-34ef-43b4-a632-de797bdbf51c",
+    "agent": "claudius",
+    "query": "Should I optimize image compression?",
+    "recalled_memory_ids": [
+      "a2e81a03-42ce-40f7-b1cb-90725c52e199",
+      "e5e62fa9-4324-4d7f-b115-7f5cf8a42ff2",
+      "8db487ed-b0b4-46fc-baa9-373c29b89cfd"
+    ],
+    "reasoning": "Uncertain decision with limited relevant memories",
+    "chosen_memory_id": "a2e81a03-42ce-40f7-b1cb-90725c52e199",
+    "confidence": 0.51,
+    "alternatives": [
+      {
+        "score": 0.39305891814109617,
+        "memoryId": "f9407cab-d214-410a-aea3-70d402fa2ef1",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.5244878380909074,
+        "memoryId": "9f01618b-826a-40e5-8541-405d01acacb4",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.4607345595833162,
+        "memoryId": "be10f283-6dc4-43b3-9369-a250fc07dbed",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.46688755137256155,
+        "memoryId": "0a88a213-c5b9-47d6-a07a-5649b5673a6b",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.3128143182513785,
+        "memoryId": "57b40672-5b9c-485d-8056-b93ddf4dd5e5",
+        "reasoning": "Alternative memory considered but not selected"
+      }
+    ],
+    "outcome": "failure",
+    "outcome_notes": "Decision did not produce expected results",
+    "created_at": "2026-01-01T13:28:17.254+00:00"
+  },
+  {
+    "id": "fb43f55d-5330-4ebf-8f2c-ff2755b0b970",
+    "agent": "claudius",
+    "query": "Should I restart the Docker container now?",
+    "recalled_memory_ids": [
+      "786342ef-1a5f-4611-8307-9518b3e0c61c",
+      "e5e62fa9-4324-4d7f-b115-7f5cf8a42ff2",
+      "8db487ed-b0b4-46fc-baa9-373c29b89cfd",
+      "094cc8d0-4734-4d6c-add7-6b23ecf3b9e8",
+      "4782fa0a-6849-4884-8a9f-9a750dbc7e53"
+    ],
+    "reasoning": "Very confident based on similar past situations",
+    "chosen_memory_id": "786342ef-1a5f-4611-8307-9518b3e0c61c",
+    "confidence": 0.86,
+    "alternatives": [
+      {
+        "score": 0.494488504646462,
+        "memoryId": "515feca1-fe1d-4d89-9ec8-cd8d78b614bb",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.3383460065644499,
+        "memoryId": "dc75101b-8b52-45f1-9c6b-6a01c9e24283",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.5281403194672127,
+        "memoryId": "f6da0302-b445-4e26-8a0b-1ba0bb9f1c2f",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.3334315695560825,
+        "memoryId": "f1547591-0df9-4243-8604-f94b4283e4c8",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.5206023924299663,
+        "memoryId": "13927948-7778-472b-a6bf-3a2b2b5795d5",
+        "reasoning": "Alternative memory considered but not selected"
+      }
+    ],
+    "outcome": "failure",
+    "outcome_notes": "Overconfidence led to unexpected failure",
+    "created_at": "2026-01-01T17:48:53.165+00:00"
+  },
+  {
+    "id": "d87a58ba-dfc5-4d79-a33c-c0b19cf1cc8a",
+    "agent": "claudius",
+    "query": "Should I apply security patches now?",
+    "recalled_memory_ids": [
+      "0a88a213-c5b9-47d6-a07a-5649b5673a6b",
+      "e5e62fa9-4324-4d7f-b115-7f5cf8a42ff2",
+      "8db487ed-b0b4-46fc-baa9-373c29b89cfd",
+      "094cc8d0-4734-4d6c-add7-6b23ecf3b9e8",
+      "4782fa0a-6849-4884-8a9f-9a750dbc7e53"
+    ],
+    "reasoning": "Very confident based on similar past situations",
+    "chosen_memory_id": "0a88a213-c5b9-47d6-a07a-5649b5673a6b",
+    "confidence": 0.89,
+    "alternatives": [
+      {
+        "score": 0.5469131631315537,
+        "memoryId": "b21b5339-3d1e-479e-86d8-2e323cf4e3e9",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.532413427691707,
+        "memoryId": "7abcd041-f517-45a9-8bec-0415836e5d1d",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.41864574535860966,
+        "memoryId": "919c268f-4758-4f84-a2c4-ac78c5743fad",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.5776403766273523,
+        "memoryId": "4782fa0a-6849-4884-8a9f-9a750dbc7e53",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.30394203124377533,
+        "memoryId": "4b462c1b-b0ad-4f55-be43-ac361a88279d",
+        "reasoning": "Alternative memory considered but not selected"
+      }
+    ],
+    "outcome": "failure",
+    "outcome_notes": "Overconfidence led to unexpected failure",
+    "created_at": "2025-12-26T02:37:10.353+00:00"
+  },
+  {
+    "id": "4fec1f71-ae88-44a8-a627-fed608bc0e2b",
+    "agent": "claudius",
+    "query": "Should I upgrade Node.js version?",
+    "recalled_memory_ids": [
+      "0a88a213-c5b9-47d6-a07a-5649b5673a6b",
+      "e5e62fa9-4324-4d7f-b115-7f5cf8a42ff2",
+      "8db487ed-b0b4-46fc-baa9-373c29b89cfd",
+      "094cc8d0-4734-4d6c-add7-6b23ecf3b9e8",
+      "4782fa0a-6849-4884-8a9f-9a750dbc7e53"
+    ],
+    "reasoning": "Very confident based on similar past situations",
+    "chosen_memory_id": "0a88a213-c5b9-47d6-a07a-5649b5673a6b",
+    "confidence": 0.94,
+    "alternatives": [
+      {
+        "score": 0.43287941647332195,
+        "memoryId": "0550eb16-0d73-4566-9bad-be5d45ab42dc",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.37965127779845187,
+        "memoryId": "ed20c64a-0d3f-44a5-8905-aaacf9d5c1d8",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.5657687334109676,
+        "memoryId": "4b462c1b-b0ad-4f55-be43-ac361a88279d",
+        "reasoning": "Alternative memory considered but not selected"
+      }
+    ],
+    "outcome": "failure",
+    "outcome_notes": "Overconfidence led to unexpected failure",
+    "created_at": "2025-12-26T10:24:54.663+00:00"
+  },
+  {
+    "id": "1156eacc-6556-4727-8e92-812c145822ee",
+    "agent": "claudius",
+    "query": "Is backup job failing silently?",
+    "recalled_memory_ids": [
+      "515feca1-fe1d-4d89-9ec8-cd8d78b614bb",
+      "e5e62fa9-4324-4d7f-b115-7f5cf8a42ff2",
+      "8db487ed-b0b4-46fc-baa9-373c29b89cfd",
+      "094cc8d0-4734-4d6c-add7-6b23ecf3b9e8",
+      "4782fa0a-6849-4884-8a9f-9a750dbc7e53"
+    ],
+    "reasoning": "Very confident based on similar past situations",
+    "chosen_memory_id": "515feca1-fe1d-4d89-9ec8-cd8d78b614bb",
+    "confidence": 0.88,
+    "alternatives": [
+      {
+        "score": 0.5362551708081942,
+        "memoryId": "57b40672-5b9c-485d-8056-b93ddf4dd5e5",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.3637592317754039,
+        "memoryId": "bcf2ed32-3858-4d66-b736-d8b3770d486c",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.3109559097514204,
+        "memoryId": "f6da0302-b445-4e26-8a0b-1ba0bb9f1c2f",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.5438783621017993,
+        "memoryId": "22c8b7da-af45-4fb2-bc57-e94c3b36ff18",
+        "reasoning": "Alternative memory considered but not selected"
+      }
+    ],
+    "outcome": "failure",
+    "outcome_notes": "Overconfidence led to unexpected failure",
+    "created_at": "2025-12-29T13:10:22.804+00:00"
+  },
+  {
+    "id": "b089af5f-de21-4384-aa3c-2ea9588f039e",
+    "agent": "claudius",
+    "query": "Should I optimize image compression?",
+    "recalled_memory_ids": [
+      "13927948-7778-472b-a6bf-3a2b2b5795d5",
+      "e5e62fa9-4324-4d7f-b115-7f5cf8a42ff2",
+      "8db487ed-b0b4-46fc-baa9-373c29b89cfd",
+      "094cc8d0-4734-4d6c-add7-6b23ecf3b9e8",
+      "4782fa0a-6849-4884-8a9f-9a750dbc7e53"
+    ],
+    "reasoning": "Very confident based on similar past situations",
+    "chosen_memory_id": "13927948-7778-472b-a6bf-3a2b2b5795d5",
+    "confidence": 0.85,
+    "alternatives": [
+      {
+        "score": 0.4281760082376036,
+        "memoryId": "a2e81a03-42ce-40f7-b1cb-90725c52e199",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.3388264235197341,
+        "memoryId": "0a88a213-c5b9-47d6-a07a-5649b5673a6b",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.5000467783252541,
+        "memoryId": "a84c1a3d-2130-4e90-9f3c-1c0231adcb28",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.5079048488153227,
+        "memoryId": "ba30b8ee-4889-4c29-afcb-d4b55d888d0e",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.5217924362943657,
+        "memoryId": "8db487ed-b0b4-46fc-baa9-373c29b89cfd",
+        "reasoning": "Alternative memory considered but not selected"
+      }
+    ],
+    "outcome": "failure",
+    "outcome_notes": "Overconfidence led to unexpected failure",
+    "created_at": "2025-12-29T12:40:42.594+00:00"
+  },
+  {
+    "id": "4afec84f-f8a2-46f4-bd5e-f1e2564f088c",
+    "agent": "claudius",
+    "query": "Is build time acceptable (5min)?",
+    "recalled_memory_ids": [
+      "b6b09252-0b2e-4c66-9ac1-a749007a6805",
+      "e5e62fa9-4324-4d7f-b115-7f5cf8a42ff2",
+      "8db487ed-b0b4-46fc-baa9-373c29b89cfd",
+      "094cc8d0-4734-4d6c-add7-6b23ecf3b9e8",
+      "4782fa0a-6849-4884-8a9f-9a750dbc7e53"
+    ],
+    "reasoning": "Very confident based on similar past situations",
+    "chosen_memory_id": "b6b09252-0b2e-4c66-9ac1-a749007a6805",
+    "confidence": 0.88,
+    "alternatives": [
+      {
+        "score": 0.3841801176021219,
+        "memoryId": "ed20c64a-0d3f-44a5-8905-aaacf9d5c1d8",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.48768215779897195,
+        "memoryId": "067c0e76-08b5-4610-a5f6-d2af85241531",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.593501111022353,
+        "memoryId": "4b462c1b-b0ad-4f55-be43-ac361a88279d",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.35442942240098135,
+        "memoryId": "2c402b82-b588-4710-9d91-3cf49a7273f3",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.5681937511557161,
+        "memoryId": "9f01618b-826a-40e5-8541-405d01acacb4",
+        "reasoning": "Alternative memory considered but not selected"
+      }
+    ],
+    "outcome": "failure",
+    "outcome_notes": "Overconfidence led to unexpected failure",
+    "created_at": "2026-01-01T12:35:25.951+00:00"
+  },
+  {
+    "id": "dcf75dce-059d-4dcc-9e97-4b438e100368",
+    "agent": "claudius",
+    "query": "Is API response time degraded?",
+    "recalled_memory_ids": [
+      "0a88a213-c5b9-47d6-a07a-5649b5673a6b",
+      "e5e62fa9-4324-4d7f-b115-7f5cf8a42ff2",
+      "8db487ed-b0b4-46fc-baa9-373c29b89cfd",
+      "094cc8d0-4734-4d6c-add7-6b23ecf3b9e8",
+      "4782fa0a-6849-4884-8a9f-9a750dbc7e53"
+    ],
+    "reasoning": "Very confident based on similar past situations",
+    "chosen_memory_id": "0a88a213-c5b9-47d6-a07a-5649b5673a6b",
+    "confidence": 0.89,
+    "alternatives": [
+      {
+        "score": 0.500254933991493,
+        "memoryId": "094cc8d0-4734-4d6c-add7-6b23ecf3b9e8",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.3140104145758372,
+        "memoryId": "be10f283-6dc4-43b3-9369-a250fc07dbed",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.4021778498917936,
+        "memoryId": "5aa198a2-6f19-411b-9fed-029118df9c64",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.5219304247920189,
+        "memoryId": "bcf2ed32-3858-4d66-b736-d8b3770d486c",
+        "reasoning": "Alternative memory considered but not selected"
+      }
+    ],
+    "outcome": "failure",
+    "outcome_notes": "Overconfidence led to unexpected failure",
+    "created_at": "2025-12-30T12:03:59.774+00:00"
+  },
+  {
+    "id": "e3264529-c1df-4033-8050-e864a0f1d578",
+    "agent": "claudius",
+    "query": "Is Redis cache hit rate low?",
+    "recalled_memory_ids": [
+      "094cc8d0-4734-4d6c-add7-6b23ecf3b9e8",
+      "e5e62fa9-4324-4d7f-b115-7f5cf8a42ff2",
+      "8db487ed-b0b4-46fc-baa9-373c29b89cfd",
+      "094cc8d0-4734-4d6c-add7-6b23ecf3b9e8",
+      "4782fa0a-6849-4884-8a9f-9a750dbc7e53"
+    ],
+    "reasoning": "Very confident based on similar past situations",
+    "chosen_memory_id": "094cc8d0-4734-4d6c-add7-6b23ecf3b9e8",
+    "confidence": 0.86,
+    "alternatives": [
+      {
+        "score": 0.5882535024132349,
+        "memoryId": "786342ef-1a5f-4611-8307-9518b3e0c61c",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.47326491624378264,
+        "memoryId": "13927948-7778-472b-a6bf-3a2b2b5795d5",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.3685817157989545,
+        "memoryId": "fefee2c3-1f69-4715-be38-bf6ef58af63d",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.4573375211827045,
+        "memoryId": "f6da0302-b445-4e26-8a0b-1ba0bb9f1c2f",
+        "reasoning": "Alternative memory considered but not selected"
+      }
+    ],
+    "outcome": "failure",
+    "outcome_notes": "Overconfidence led to unexpected failure",
+    "created_at": "2025-12-27T02:58:33.443+00:00"
+  },
+  {
+    "id": "57aef521-b442-4ddd-9ba9-10966888ff6e",
+    "agent": "claudius",
+    "query": "Is build time acceptable (5min)?",
+    "recalled_memory_ids": [
+      "0a88a213-c5b9-47d6-a07a-5649b5673a6b"
+    ],
+    "reasoning": "Limited relevant memories, proceeding cautiously",
+    "chosen_memory_id": "0a88a213-c5b9-47d6-a07a-5649b5673a6b",
+    "confidence": 0.34,
+    "alternatives": [
+      {
+        "score": 0.3232583102571769,
+        "memoryId": "af4b2c53-d8bf-4a5e-9878-08b5b7afb87a",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.5930615293915957,
+        "memoryId": "bcf2ed32-3858-4d66-b736-d8b3770d486c",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.5763636951592677,
+        "memoryId": "4782fa0a-6849-4884-8a9f-9a750dbc7e53",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.567326611362031,
+        "memoryId": "919c268f-4758-4f84-a2c4-ac78c5743fad",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.4705332311018738,
+        "memoryId": "9dcf4622-f753-4f8d-9b3c-371d0cb0b56b",
+        "reasoning": "Alternative memory considered but not selected"
+      }
+    ],
+    "outcome": "success",
+    "outcome_notes": "Cautious approach succeeded despite low confidence",
+    "created_at": "2025-12-27T02:11:32.051+00:00"
+  },
+  {
+    "id": "2ceed117-559a-4459-bbd1-e1f155350e60",
+    "agent": "claudius",
+    "query": "Should I optimize image compression?",
+    "recalled_memory_ids": [
+      "8db487ed-b0b4-46fc-baa9-373c29b89cfd"
+    ],
+    "reasoning": "Limited relevant memories, proceeding cautiously",
+    "chosen_memory_id": "8db487ed-b0b4-46fc-baa9-373c29b89cfd",
+    "confidence": 0.35,
+    "alternatives": [
+      {
+        "score": 0.37126782632992245,
+        "memoryId": "d248a887-b587-4376-8a3a-41b638c3d7de",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.32750150463337263,
+        "memoryId": "02449e45-4e3d-4d60-beb0-6816aba45573",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.5603437886021756,
+        "memoryId": "be10f283-6dc4-43b3-9369-a250fc07dbed",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.49259742878690815,
+        "memoryId": "094cc8d0-4734-4d6c-add7-6b23ecf3b9e8",
+        "reasoning": "Alternative memory considered but not selected"
+      }
+    ],
+    "outcome": "success",
+    "outcome_notes": "Cautious approach succeeded despite low confidence",
+    "created_at": "2025-12-25T22:29:27.027+00:00"
+  },
+  {
+    "id": "ae49edf4-958b-47a0-a6c1-f3dad753f8ac",
+    "agent": "claudius",
+    "query": "Is Redis cache hit rate low?",
+    "recalled_memory_ids": [
+      "9f01618b-826a-40e5-8541-405d01acacb4"
+    ],
+    "reasoning": "Limited relevant memories, proceeding cautiously",
+    "chosen_memory_id": "9f01618b-826a-40e5-8541-405d01acacb4",
+    "confidence": 0.4,
+    "alternatives": [
+      {
+        "score": 0.3320037621258004,
+        "memoryId": "57b40672-5b9c-485d-8056-b93ddf4dd5e5",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.598528333424037,
+        "memoryId": "f37afaba-aa8e-4e09-a97f-21f897b90a4e",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.3109970392332631,
+        "memoryId": "a2e81a03-42ce-40f7-b1cb-90725c52e199",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.5872136106172263,
+        "memoryId": "b21b5339-3d1e-479e-86d8-2e323cf4e3e9",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.4014493204172635,
+        "memoryId": "be10f283-6dc4-43b3-9369-a250fc07dbed",
+        "reasoning": "Alternative memory considered but not selected"
+      }
+    ],
+    "outcome": "success",
+    "outcome_notes": "Cautious approach succeeded despite low confidence",
+    "created_at": "2025-12-26T23:12:41.901+00:00"
+  },
+  {
+    "id": "4342f868-5d1b-49a4-a516-a69174d9138c",
+    "agent": "claudius",
+    "query": "Is build time acceptable (5min)?",
+    "recalled_memory_ids": [
+      "515feca1-fe1d-4d89-9ec8-cd8d78b614bb"
+    ],
+    "reasoning": "Limited relevant memories, proceeding cautiously",
+    "chosen_memory_id": "515feca1-fe1d-4d89-9ec8-cd8d78b614bb",
+    "confidence": 0.5,
+    "alternatives": [
+      {
+        "score": 0.5161947551237551,
+        "memoryId": "919c268f-4758-4f84-a2c4-ac78c5743fad",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.4856416672857644,
+        "memoryId": "b21b5339-3d1e-479e-86d8-2e323cf4e3e9",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.38680275826389443,
+        "memoryId": "af4547f2-0f13-4b5d-ab84-440f344b8914",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.4635081805233059,
+        "memoryId": "a84c1a3d-2130-4e90-9f3c-1c0231adcb28",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.3423091447292346,
+        "memoryId": "9dcf4622-f753-4f8d-9b3c-371d0cb0b56b",
+        "reasoning": "Alternative memory considered but not selected"
+      }
+    ],
+    "outcome": "success",
+    "outcome_notes": "Cautious approach succeeded despite low confidence",
+    "created_at": "2025-12-28T19:40:27.999+00:00"
+  },
+  {
+    "id": "6be61ead-8922-431c-8f87-5ca721a34fe8",
+    "agent": "claudius",
+    "query": "Is database query slow (>500ms)?",
+    "recalled_memory_ids": [
+      "30b6ffe1-84ae-4464-8da4-043da334cce3"
+    ],
+    "reasoning": "Limited relevant memories, proceeding cautiously",
+    "chosen_memory_id": "30b6ffe1-84ae-4464-8da4-043da334cce3",
+    "confidence": 0.41,
+    "alternatives": [
+      {
+        "score": 0.583680797576352,
+        "memoryId": "7ad8d40e-56f3-4813-b740-f69d9615f983",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.40082947293728344,
+        "memoryId": "515feca1-fe1d-4d89-9ec8-cd8d78b614bb",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.36909760862364926,
+        "memoryId": "be10f283-6dc4-43b3-9369-a250fc07dbed",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.477388833108787,
+        "memoryId": "0768bc39-6d9f-4a0f-ae57-1118b59a2a97",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.3087546413763826,
+        "memoryId": "4782fa0a-6849-4884-8a9f-9a750dbc7e53",
+        "reasoning": "Alternative memory considered but not selected"
+      }
+    ],
+    "outcome": "success",
+    "outcome_notes": "Cautious approach succeeded despite low confidence",
+    "created_at": "2025-12-29T04:07:58.416+00:00"
+  },
+  {
+    "id": "a806085c-9a90-4b04-b8e6-db659b753e2a",
+    "agent": "claudius",
+    "query": "Is API response time degraded?",
+    "recalled_memory_ids": [
+      "2c402b82-b588-4710-9d91-3cf49a7273f3"
+    ],
+    "reasoning": "Limited relevant memories, proceeding cautiously",
+    "chosen_memory_id": "2c402b82-b588-4710-9d91-3cf49a7273f3",
+    "confidence": 0.38,
+    "alternatives": [
+      {
+        "score": 0.46760266276960205,
+        "memoryId": "f37afaba-aa8e-4e09-a97f-21f897b90a4e",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.5575779325171826,
+        "memoryId": "f9407cab-d214-410a-aea3-70d402fa2ef1",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.46754552746149497,
+        "memoryId": "af4547f2-0f13-4b5d-ab84-440f344b8914",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.57707071028928,
+        "memoryId": "0550eb16-0d73-4566-9bad-be5d45ab42dc",
+        "reasoning": "Alternative memory considered but not selected"
+      }
+    ],
+    "outcome": "success",
+    "outcome_notes": "Cautious approach succeeded despite low confidence",
+    "created_at": "2025-12-26T01:44:21.319+00:00"
+  },
+  {
+    "id": "08de2f92-2172-4f87-b132-d93a041f07a5",
+    "agent": "claudius",
+    "query": "Should I increase rate limits?",
+    "recalled_memory_ids": [
+      "b6b09252-0b2e-4c66-9ac1-a749007a6805"
+    ],
+    "reasoning": "Limited relevant memories, proceeding cautiously",
+    "chosen_memory_id": "b6b09252-0b2e-4c66-9ac1-a749007a6805",
+    "confidence": 0.48,
+    "alternatives": [
+      {
+        "score": 0.4122569320053124,
+        "memoryId": "9dcf4622-f753-4f8d-9b3c-371d0cb0b56b",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.49695393541987826,
+        "memoryId": "515feca1-fe1d-4d89-9ec8-cd8d78b614bb",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.33287542622816707,
+        "memoryId": "f37afaba-aa8e-4e09-a97f-21f897b90a4e",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.42452477097246444,
+        "memoryId": "cef2a11d-9319-4bef-943b-8ae6b3e6b04c",
+        "reasoning": "Alternative memory considered but not selected"
+      }
+    ],
+    "outcome": "success",
+    "outcome_notes": "Cautious approach succeeded despite low confidence",
+    "created_at": "2025-12-27T11:41:57.644+00:00"
+  },
+  {
+    "id": "a1865e16-b087-466e-8105-621a8da4c12d",
+    "agent": "claudius",
+    "query": "Should I upgrade Node.js version?",
+    "recalled_memory_ids": [
+      "a84c1a3d-2130-4e90-9f3c-1c0231adcb28",
+      "e5e62fa9-4324-4d7f-b115-7f5cf8a42ff2",
+      "8db487ed-b0b4-46fc-baa9-373c29b89cfd"
+    ],
+    "reasoning": "Standard decision with moderate confidence",
+    "chosen_memory_id": "a84c1a3d-2130-4e90-9f3c-1c0231adcb28",
+    "confidence": 0.55,
+    "alternatives": [
+      {
+        "score": 0.5855928089736886,
+        "memoryId": "786342ef-1a5f-4611-8307-9518b3e0c61c",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.39245082265179293,
+        "memoryId": "0768bc39-6d9f-4a0f-ae57-1118b59a2a97",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.3652965095680927,
+        "memoryId": "29801acf-092f-43ae-b963-0ccfcc2a89d7",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.4007040408119207,
+        "memoryId": "7abcd041-f517-45a9-8bec-0415836e5d1d",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.5624006111503927,
+        "memoryId": "dc1fed35-6f22-4c4b-a835-1cfcd35b7f72",
+        "reasoning": "Alternative memory considered but not selected"
+      }
+    ],
+    "outcome": "failure",
+    "outcome_notes": "Standard failure, no surprises",
+    "created_at": "2025-12-30T05:21:41.554+00:00"
+  },
+  {
+    "id": "fae79bba-ca3b-4bed-8c64-edb8fa474508",
+    "agent": "claudius",
+    "query": "Is Redis cache hit rate low?",
+    "recalled_memory_ids": [
+      "13927948-7778-472b-a6bf-3a2b2b5795d5",
+      "e5e62fa9-4324-4d7f-b115-7f5cf8a42ff2",
+      "8db487ed-b0b4-46fc-baa9-373c29b89cfd"
+    ],
+    "reasoning": "Standard decision with moderate confidence",
+    "chosen_memory_id": "13927948-7778-472b-a6bf-3a2b2b5795d5",
+    "confidence": 0.74,
+    "alternatives": [
+      {
+        "score": 0.47658502092700694,
+        "memoryId": "515feca1-fe1d-4d89-9ec8-cd8d78b614bb",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.3211473206217907,
+        "memoryId": "a2e81a03-42ce-40f7-b1cb-90725c52e199",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.5301818023333162,
+        "memoryId": "7abcd041-f517-45a9-8bec-0415836e5d1d",
+        "reasoning": "Alternative memory considered but not selected"
+      }
+    ],
+    "outcome": "success",
+    "outcome_notes": "Normal successful operation",
+    "created_at": "2025-12-28T14:42:37.934+00:00"
+  },
+  {
+    "id": "e71fc3f7-8dee-49e4-99c2-262226ae8029",
+    "agent": "claudius",
+    "query": "Is database query slow (>500ms)?",
+    "recalled_memory_ids": [
+      "fefee2c3-1f69-4715-be38-bf6ef58af63d",
+      "e5e62fa9-4324-4d7f-b115-7f5cf8a42ff2",
+      "8db487ed-b0b4-46fc-baa9-373c29b89cfd"
+    ],
+    "reasoning": "Standard decision with moderate confidence",
+    "chosen_memory_id": "fefee2c3-1f69-4715-be38-bf6ef58af63d",
+    "confidence": 0.58,
+    "alternatives": [
+      {
+        "score": 0.3791675316909491,
+        "memoryId": "0a88a213-c5b9-47d6-a07a-5649b5673a6b",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.5078128464106895,
+        "memoryId": "af4b2c53-d8bf-4a5e-9878-08b5b7afb87a",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.3108250323839942,
+        "memoryId": "dc1fed35-6f22-4c4b-a835-1cfcd35b7f72",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.47921435863039574,
+        "memoryId": "f37afaba-aa8e-4e09-a97f-21f897b90a4e",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.5443937422703433,
+        "memoryId": "9f01618b-826a-40e5-8541-405d01acacb4",
+        "reasoning": "Alternative memory considered but not selected"
+      }
+    ],
+    "outcome": "failure",
+    "outcome_notes": "Standard failure, no surprises",
+    "created_at": "2026-01-01T03:58:48.96+00:00"
+  },
+  {
+    "id": "5af1d86d-a73c-45b2-b868-c2bcdd7a105d",
+    "agent": "claudius",
+    "query": "Is build time acceptable (5min)?",
+    "recalled_memory_ids": [
+      "786342ef-1a5f-4611-8307-9518b3e0c61c",
+      "e5e62fa9-4324-4d7f-b115-7f5cf8a42ff2",
+      "8db487ed-b0b4-46fc-baa9-373c29b89cfd"
+    ],
+    "reasoning": "Standard decision with moderate confidence",
+    "chosen_memory_id": "786342ef-1a5f-4611-8307-9518b3e0c61c",
+    "confidence": 0.63,
+    "alternatives": [
+      {
+        "score": 0.5451127743350712,
+        "memoryId": "af4b2c53-d8bf-4a5e-9878-08b5b7afb87a",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.31198630818507445,
+        "memoryId": "bcf2ed32-3858-4d66-b736-d8b3770d486c",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.5640892380450404,
+        "memoryId": "29801acf-092f-43ae-b963-0ccfcc2a89d7",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.3898144327546132,
+        "memoryId": "f37afaba-aa8e-4e09-a97f-21f897b90a4e",
+        "reasoning": "Alternative memory considered but not selected"
+      }
+    ],
+    "outcome": "success",
+    "outcome_notes": "Normal successful operation",
+    "created_at": "2026-01-01T03:44:18.699+00:00"
+  },
+  {
+    "id": "54e84d7a-3cf7-4ec0-bc19-3693f18df937",
+    "agent": "claudius",
+    "query": "Should I optimize image compression?",
+    "recalled_memory_ids": [
+      "fefee2c3-1f69-4715-be38-bf6ef58af63d",
+      "e5e62fa9-4324-4d7f-b115-7f5cf8a42ff2",
+      "8db487ed-b0b4-46fc-baa9-373c29b89cfd"
+    ],
+    "reasoning": "Standard decision with moderate confidence",
+    "chosen_memory_id": "fefee2c3-1f69-4715-be38-bf6ef58af63d",
+    "confidence": 0.66,
+    "alternatives": [
+      {
+        "score": 0.403819346358592,
+        "memoryId": "8e3d8dc6-3bb0-4b8f-a69b-9a6bd1a57b04",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.5651194136829224,
+        "memoryId": "af4b2c53-d8bf-4a5e-9878-08b5b7afb87a",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.5780473699776619,
+        "memoryId": "ba30b8ee-4889-4c29-afcb-d4b55d888d0e",
+        "reasoning": "Alternative memory considered but not selected"
+      }
+    ],
+    "outcome": "failure",
+    "outcome_notes": "Standard failure, no surprises",
+    "created_at": "2025-12-26T05:11:54.189+00:00"
+  },
+  {
+    "id": "9b7e4429-3856-451d-957b-17c08a0a761d",
+    "agent": "claudius",
+    "query": "Is memory usage concerning (8GB/16GB)?",
+    "recalled_memory_ids": [
+      "58c0f7f1-c906-4610-bbf5-282eca5e022f",
+      "e5e62fa9-4324-4d7f-b115-7f5cf8a42ff2",
+      "8db487ed-b0b4-46fc-baa9-373c29b89cfd",
+      "094cc8d0-4734-4d6c-add7-6b23ecf3b9e8"
+    ],
+    "reasoning": "High confidence decision based on past successes",
+    "chosen_memory_id": "58c0f7f1-c906-4610-bbf5-282eca5e022f",
+    "confidence": 0.81,
+    "alternatives": [
+      {
+        "score": 0.5904410880744715,
+        "memoryId": "0550eb16-0d73-4566-9bad-be5d45ab42dc",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.4663584590450441,
+        "memoryId": "57b40672-5b9c-485d-8056-b93ddf4dd5e5",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.4224354847555399,
+        "memoryId": "af4b2c53-d8bf-4a5e-9878-08b5b7afb87a",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.33119487784664947,
+        "memoryId": "067c0e76-08b5-4610-a5f6-d2af85241531",
+        "reasoning": "Alternative memory considered but not selected"
+      }
+    ],
+    "outcome": "success",
+    "outcome_notes": "Decision executed successfully",
+    "created_at": "2025-12-27T03:44:27.948+00:00"
+  },
+  {
+    "id": "14b2afe3-6378-4456-83ff-283740c1db1d",
+    "agent": "claudius",
+    "query": "Is API response time degraded?",
+    "recalled_memory_ids": [
+      "7ad8d40e-56f3-4813-b740-f69d9615f983",
+      "e5e62fa9-4324-4d7f-b115-7f5cf8a42ff2",
+      "8db487ed-b0b4-46fc-baa9-373c29b89cfd"
+    ],
+    "reasoning": "Uncertain decision with limited relevant memories",
+    "chosen_memory_id": "7ad8d40e-56f3-4813-b740-f69d9615f983",
+    "confidence": 0.49,
+    "alternatives": [
+      {
+        "score": 0.5420394241012936,
+        "memoryId": "d248a887-b587-4376-8a3a-41b638c3d7de",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.5218975870353242,
+        "memoryId": "b6b09252-0b2e-4c66-9ac1-a749007a6805",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.558420278713837,
+        "memoryId": "af4547f2-0f13-4b5d-ab84-440f344b8914",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.5365573875605594,
+        "memoryId": "0550eb16-0d73-4566-9bad-be5d45ab42dc",
+        "reasoning": "Alternative memory considered but not selected"
+      }
+    ],
+    "outcome": "failure",
+    "outcome_notes": "Decision did not produce expected results",
+    "created_at": "2025-12-30T15:05:04.89+00:00"
+  },
+  {
+    "id": "4a14bce4-76ae-4591-affd-a83a89ecb0d9",
+    "agent": "claudius",
+    "query": "Should I enable caching for this API?",
+    "recalled_memory_ids": [
+      "dc75101b-8b52-45f1-9c6b-6a01c9e24283",
+      "e5e62fa9-4324-4d7f-b115-7f5cf8a42ff2",
+      "8db487ed-b0b4-46fc-baa9-373c29b89cfd",
+      "094cc8d0-4734-4d6c-add7-6b23ecf3b9e8"
+    ],
+    "reasoning": "High confidence decision based on past successes",
+    "chosen_memory_id": "dc75101b-8b52-45f1-9c6b-6a01c9e24283",
+    "confidence": 0.81,
+    "alternatives": [
+      {
+        "score": 0.3651355969104144,
+        "memoryId": "4d7bb9cd-e2d1-4f1f-ad5a-f5c798c7bcf4",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.43110481892746877,
+        "memoryId": "2c402b82-b588-4710-9d91-3cf49a7273f3",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.5823960172413059,
+        "memoryId": "7abcd041-f517-45a9-8bec-0415836e5d1d",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.3817807965716675,
+        "memoryId": "b21b5339-3d1e-479e-86d8-2e323cf4e3e9",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.5198346172235114,
+        "memoryId": "786342ef-1a5f-4611-8307-9518b3e0c61c",
+        "reasoning": "Alternative memory considered but not selected"
+      }
+    ],
+    "outcome": "success",
+    "outcome_notes": "Decision executed successfully",
+    "created_at": "2026-01-01T04:03:08.325+00:00"
+  },
+  {
+    "id": "d563b90a-da73-4505-8958-0616540ea26e",
+    "agent": "claudius",
+    "query": "Should I optimize image compression?",
+    "recalled_memory_ids": [
+      "919c268f-4758-4f84-a2c4-ac78c5743fad",
+      "e5e62fa9-4324-4d7f-b115-7f5cf8a42ff2",
+      "8db487ed-b0b4-46fc-baa9-373c29b89cfd",
+      "094cc8d0-4734-4d6c-add7-6b23ecf3b9e8"
+    ],
+    "reasoning": "High confidence decision based on past successes",
+    "chosen_memory_id": "919c268f-4758-4f84-a2c4-ac78c5743fad",
+    "confidence": 0.88,
+    "alternatives": [
+      {
+        "score": 0.4640081031488182,
+        "memoryId": "1e4d0b47-acbe-43ae-83ee-e5fb5309eea3",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.36715256353721937,
+        "memoryId": "fefee2c3-1f69-4715-be38-bf6ef58af63d",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.5857694655832235,
+        "memoryId": "bcf2ed32-3858-4d66-b736-d8b3770d486c",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.5250340337834023,
+        "memoryId": "4d7bb9cd-e2d1-4f1f-ad5a-f5c798c7bcf4",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.5310414377485502,
+        "memoryId": "a84c1a3d-2130-4e90-9f3c-1c0231adcb28",
+        "reasoning": "Alternative memory considered but not selected"
+      }
+    ],
+    "outcome": "success",
+    "outcome_notes": "Decision executed successfully",
+    "created_at": "2026-01-01T16:07:00.035+00:00"
+  },
+  {
+    "id": "3037c84e-cd4f-428d-a261-dc1d67db6f84",
+    "agent": "claudius",
+    "query": "Is CDN cache working correctly?",
+    "recalled_memory_ids": [
+      "0a88a213-c5b9-47d6-a07a-5649b5673a6b",
+      "e5e62fa9-4324-4d7f-b115-7f5cf8a42ff2",
+      "8db487ed-b0b4-46fc-baa9-373c29b89cfd",
+      "094cc8d0-4734-4d6c-add7-6b23ecf3b9e8"
+    ],
+    "reasoning": "High confidence decision based on past successes",
+    "chosen_memory_id": "0a88a213-c5b9-47d6-a07a-5649b5673a6b",
+    "confidence": 0.87,
+    "alternatives": [
+      {
+        "score": 0.5269890497501476,
+        "memoryId": "ba30b8ee-4889-4c29-afcb-d4b55d888d0e",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.5261118768936934,
+        "memoryId": "f9407cab-d214-410a-aea3-70d402fa2ef1",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.31599815257659275,
+        "memoryId": "8db487ed-b0b4-46fc-baa9-373c29b89cfd",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.301563855535228,
+        "memoryId": "bcf2ed32-3858-4d66-b736-d8b3770d486c",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.5986124066510407,
+        "memoryId": "4d7bb9cd-e2d1-4f1f-ad5a-f5c798c7bcf4",
+        "reasoning": "Alternative memory considered but not selected"
+      }
+    ],
+    "outcome": "success",
+    "outcome_notes": "Decision executed successfully",
+    "created_at": "2026-01-01T14:48:24.533+00:00"
+  },
+  {
+    "id": "06e335e1-2eca-4bac-ab17-6e73e34ddc1a",
+    "agent": "claudius",
+    "query": "Should I add more indexes?",
+    "recalled_memory_ids": [
+      "0a88a213-c5b9-47d6-a07a-5649b5673a6b",
+      "e5e62fa9-4324-4d7f-b115-7f5cf8a42ff2",
+      "8db487ed-b0b4-46fc-baa9-373c29b89cfd",
+      "094cc8d0-4734-4d6c-add7-6b23ecf3b9e8"
+    ],
+    "reasoning": "High confidence decision based on past successes",
+    "chosen_memory_id": "0a88a213-c5b9-47d6-a07a-5649b5673a6b",
+    "confidence": 0.82,
+    "alternatives": [
+      {
+        "score": 0.5507793714381664,
+        "memoryId": "919c268f-4758-4f84-a2c4-ac78c5743fad",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.38277375852134093,
+        "memoryId": "1e4d0b47-acbe-43ae-83ee-e5fb5309eea3",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.5225972692454839,
+        "memoryId": "be10f283-6dc4-43b3-9369-a250fc07dbed",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.33156356872849735,
+        "memoryId": "70e55f7d-786e-4cc5-906e-4e938607bbf6",
+        "reasoning": "Alternative memory considered but not selected"
+      }
+    ],
+    "outcome": "success",
+    "outcome_notes": "Decision executed successfully",
+    "created_at": "2025-12-30T10:51:37.433+00:00"
+  },
+  {
+    "id": "f8778702-7f36-412a-b3ff-4883638b9ea8",
+    "agent": "claudius",
+    "query": "Is database query slow (>500ms)?",
+    "recalled_memory_ids": [
+      "2c402b82-b588-4710-9d91-3cf49a7273f3",
+      "e5e62fa9-4324-4d7f-b115-7f5cf8a42ff2",
+      "8db487ed-b0b4-46fc-baa9-373c29b89cfd",
+      "094cc8d0-4734-4d6c-add7-6b23ecf3b9e8"
+    ],
+    "reasoning": "High confidence decision based on past successes",
+    "chosen_memory_id": "2c402b82-b588-4710-9d91-3cf49a7273f3",
+    "confidence": 0.85,
+    "alternatives": [
+      {
+        "score": 0.5659374710435614,
+        "memoryId": "e5e62fa9-4324-4d7f-b115-7f5cf8a42ff2",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.3209022265412358,
+        "memoryId": "fefee2c3-1f69-4715-be38-bf6ef58af63d",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.5196190807706929,
+        "memoryId": "d7b705cd-889b-402c-bc18-39a43c3980a8",
+        "reasoning": "Alternative memory considered but not selected"
+      }
+    ],
+    "outcome": "success",
+    "outcome_notes": "Decision executed successfully",
+    "created_at": "2025-12-30T17:01:57.458+00:00"
+  },
+  {
+    "id": "edc7cd3a-791d-4d20-8393-24b844712b09",
+    "agent": "claudius",
+    "query": "Should I optimize image compression?",
+    "recalled_memory_ids": [
+      "8db487ed-b0b4-46fc-baa9-373c29b89cfd",
+      "e5e62fa9-4324-4d7f-b115-7f5cf8a42ff2",
+      "8db487ed-b0b4-46fc-baa9-373c29b89cfd",
+      "094cc8d0-4734-4d6c-add7-6b23ecf3b9e8"
+    ],
+    "reasoning": "High confidence decision based on past successes",
+    "chosen_memory_id": "8db487ed-b0b4-46fc-baa9-373c29b89cfd",
+    "confidence": 0.84,
+    "alternatives": [
+      {
+        "score": 0.33227178783305583,
+        "memoryId": "d7b705cd-889b-402c-bc18-39a43c3980a8",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.5784797309604875,
+        "memoryId": "b21b5339-3d1e-479e-86d8-2e323cf4e3e9",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.5724193148686654,
+        "memoryId": "58c0f7f1-c906-4610-bbf5-282eca5e022f",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.5399434094120446,
+        "memoryId": "0a88a213-c5b9-47d6-a07a-5649b5673a6b",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.35598590635262,
+        "memoryId": "1e4d0b47-acbe-43ae-83ee-e5fb5309eea3",
+        "reasoning": "Alternative memory considered but not selected"
+      }
+    ],
+    "outcome": "success",
+    "outcome_notes": "Decision executed successfully",
+    "created_at": "2025-12-26T22:20:37.759+00:00"
+  },
+  {
+    "id": "2956676f-f98f-4be3-8380-0057eb8da7c9",
+    "agent": "claudius",
+    "query": "Should I add more indexes?",
+    "recalled_memory_ids": [
+      "fefee2c3-1f69-4715-be38-bf6ef58af63d",
+      "e5e62fa9-4324-4d7f-b115-7f5cf8a42ff2",
+      "8db487ed-b0b4-46fc-baa9-373c29b89cfd",
+      "094cc8d0-4734-4d6c-add7-6b23ecf3b9e8"
+    ],
+    "reasoning": "High confidence decision based on past successes",
+    "chosen_memory_id": "fefee2c3-1f69-4715-be38-bf6ef58af63d",
+    "confidence": 0.81,
+    "alternatives": [
+      {
+        "score": 0.4729103519311635,
+        "memoryId": "ed20c64a-0d3f-44a5-8905-aaacf9d5c1d8",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.40359603451435866,
+        "memoryId": "919c268f-4758-4f84-a2c4-ac78c5743fad",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.47177865876294217,
+        "memoryId": "5aa198a2-6f19-411b-9fed-029118df9c64",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.5824928432503604,
+        "memoryId": "8db487ed-b0b4-46fc-baa9-373c29b89cfd",
+        "reasoning": "Alternative memory considered but not selected"
+      }
+    ],
+    "outcome": "success",
+    "outcome_notes": "Decision executed successfully",
+    "created_at": "2025-12-28T05:45:01.579+00:00"
+  },
+  {
+    "id": "bb4a9cfc-ab1f-4648-b239-2c27cde88f41",
+    "agent": "claudius",
+    "query": "Should I upgrade Node.js version?",
+    "recalled_memory_ids": [
+      "58c0f7f1-c906-4610-bbf5-282eca5e022f",
+      "e5e62fa9-4324-4d7f-b115-7f5cf8a42ff2",
+      "8db487ed-b0b4-46fc-baa9-373c29b89cfd"
+    ],
+    "reasoning": "Uncertain decision with limited relevant memories",
+    "chosen_memory_id": "58c0f7f1-c906-4610-bbf5-282eca5e022f",
+    "confidence": 0.5,
+    "alternatives": [
+      {
+        "score": 0.443397106937109,
+        "memoryId": "9dcf4622-f753-4f8d-9b3c-371d0cb0b56b",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.5555937716193344,
+        "memoryId": "2b2f3f99-2637-4cbe-9f2e-600f2bdbc871",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.4896937608744855,
+        "memoryId": "a2e81a03-42ce-40f7-b1cb-90725c52e199",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.45948785612863663,
+        "memoryId": "4d7bb9cd-e2d1-4f1f-ad5a-f5c798c7bcf4",
+        "reasoning": "Alternative memory considered but not selected"
+      }
+    ],
+    "outcome": "failure",
+    "outcome_notes": "Decision did not produce expected results",
+    "created_at": "2025-12-29T02:48:15.507+00:00"
+  },
+  {
+    "id": "9c414a8f-6e8d-40c9-933c-65cb1c792aa1",
+    "agent": "claudius",
+    "query": "Is disk space critical (90% used)?",
+    "recalled_memory_ids": [
+      "7ad8d40e-56f3-4813-b740-f69d9615f983",
+      "e5e62fa9-4324-4d7f-b115-7f5cf8a42ff2",
+      "8db487ed-b0b4-46fc-baa9-373c29b89cfd"
+    ],
+    "reasoning": "Uncertain decision with limited relevant memories",
+    "chosen_memory_id": "7ad8d40e-56f3-4813-b740-f69d9615f983",
+    "confidence": 0.44,
+    "alternatives": [
+      {
+        "score": 0.49810987574475746,
+        "memoryId": "bcf2ed32-3858-4d66-b736-d8b3770d486c",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.37512147584334987,
+        "memoryId": "dc1fed35-6f22-4c4b-a835-1cfcd35b7f72",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.3476469785590279,
+        "memoryId": "cef2a11d-9319-4bef-943b-8ae6b3e6b04c",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.38515741146675037,
+        "memoryId": "9dcf4622-f753-4f8d-9b3c-371d0cb0b56b",
+        "reasoning": "Alternative memory considered but not selected"
+      }
+    ],
+    "outcome": "failure",
+    "outcome_notes": "Decision did not produce expected results",
+    "created_at": "2026-01-01T06:25:31.785+00:00"
+  },
+  {
+    "id": "f8257169-05be-4cd8-975d-a20e70ae5569",
+    "agent": "claudius",
+    "query": "Is backup job failing silently?",
+    "recalled_memory_ids": [
+      "dc75101b-8b52-45f1-9c6b-6a01c9e24283",
+      "e5e62fa9-4324-4d7f-b115-7f5cf8a42ff2",
+      "8db487ed-b0b4-46fc-baa9-373c29b89cfd"
+    ],
+    "reasoning": "Uncertain decision with limited relevant memories",
+    "chosen_memory_id": "dc75101b-8b52-45f1-9c6b-6a01c9e24283",
+    "confidence": 0.42,
+    "alternatives": [
+      {
+        "score": 0.37357619063555514,
+        "memoryId": "7ad8d40e-56f3-4813-b740-f69d9615f983",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.4196691841407406,
+        "memoryId": "9dcf4622-f753-4f8d-9b3c-371d0cb0b56b",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.38421460552253717,
+        "memoryId": "2c402b82-b588-4710-9d91-3cf49a7273f3",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.5015028782294814,
+        "memoryId": "f37afaba-aa8e-4e09-a97f-21f897b90a4e",
+        "reasoning": "Alternative memory considered but not selected"
+      }
+    ],
+    "outcome": "failure",
+    "outcome_notes": "Decision did not produce expected results",
+    "created_at": "2025-12-31T12:38:48.66+00:00"
+  },
+  {
+    "id": "f662dcd0-4b20-4bd9-ba8e-9dfed9453b4d",
+    "agent": "claudius",
+    "query": "Is build time acceptable (5min)?",
+    "recalled_memory_ids": [
+      "8db487ed-b0b4-46fc-baa9-373c29b89cfd",
+      "e5e62fa9-4324-4d7f-b115-7f5cf8a42ff2",
+      "8db487ed-b0b4-46fc-baa9-373c29b89cfd"
+    ],
+    "reasoning": "Uncertain decision with limited relevant memories",
+    "chosen_memory_id": "8db487ed-b0b4-46fc-baa9-373c29b89cfd",
+    "confidence": 0.46,
+    "alternatives": [
+      {
+        "score": 0.5302998409433395,
+        "memoryId": "b6b09252-0b2e-4c66-9ac1-a749007a6805",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.4848441398435027,
+        "memoryId": "bcf2ed32-3858-4d66-b736-d8b3770d486c",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.5629752132934109,
+        "memoryId": "22c8b7da-af45-4fb2-bc57-e94c3b36ff18",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.3921372452729634,
+        "memoryId": "d248a887-b587-4376-8a3a-41b638c3d7de",
+        "reasoning": "Alternative memory considered but not selected"
+      }
+    ],
+    "outcome": "failure",
+    "outcome_notes": "Decision did not produce expected results",
+    "created_at": "2025-12-28T13:14:13.813+00:00"
+  },
+  {
+    "id": "a7f44091-debc-4e2c-b6cc-3acbb807cd25",
+    "agent": "claudius",
+    "query": "Is database query slow (>500ms)?",
+    "recalled_memory_ids": [
+      "786342ef-1a5f-4611-8307-9518b3e0c61c",
+      "e5e62fa9-4324-4d7f-b115-7f5cf8a42ff2",
+      "8db487ed-b0b4-46fc-baa9-373c29b89cfd"
+    ],
+    "reasoning": "Uncertain decision with limited relevant memories",
+    "chosen_memory_id": "786342ef-1a5f-4611-8307-9518b3e0c61c",
+    "confidence": 0.44,
+    "alternatives": [
+      {
+        "score": 0.33209428134376123,
+        "memoryId": "02449e45-4e3d-4d60-beb0-6816aba45573",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.46013428768107173,
+        "memoryId": "af4b2c53-d8bf-4a5e-9878-08b5b7afb87a",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.35355086503473393,
+        "memoryId": "4782fa0a-6849-4884-8a9f-9a750dbc7e53",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.5304558806146868,
+        "memoryId": "4d7bb9cd-e2d1-4f1f-ad5a-f5c798c7bcf4",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.44019992956241094,
+        "memoryId": "22c8b7da-af45-4fb2-bc57-e94c3b36ff18",
+        "reasoning": "Alternative memory considered but not selected"
+      }
+    ],
+    "outcome": "failure",
+    "outcome_notes": "Decision did not produce expected results",
+    "created_at": "2025-12-30T05:09:15.273+00:00"
+  },
+  {
+    "id": "fdd31a66-a13c-41f5-a36e-df1d6fdae2ab",
+    "agent": "claudius",
+    "query": "Should I migrate to new server?",
+    "recalled_memory_ids": [
+      "29801acf-092f-43ae-b963-0ccfcc2a89d7",
+      "e5e62fa9-4324-4d7f-b115-7f5cf8a42ff2",
+      "8db487ed-b0b4-46fc-baa9-373c29b89cfd"
+    ],
+    "reasoning": "Uncertain decision with limited relevant memories",
+    "chosen_memory_id": "29801acf-092f-43ae-b963-0ccfcc2a89d7",
+    "confidence": 0.48,
+    "alternatives": [
+      {
+        "score": 0.49517092036410393,
+        "memoryId": "f6da0302-b445-4e26-8a0b-1ba0bb9f1c2f",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.3067178967581531,
+        "memoryId": "bcf2ed32-3858-4d66-b736-d8b3770d486c",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.45437766858151074,
+        "memoryId": "ba30b8ee-4889-4c29-afcb-d4b55d888d0e",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.545007760830883,
+        "memoryId": "a84c1a3d-2130-4e90-9f3c-1c0231adcb28",
+        "reasoning": "Alternative memory considered but not selected"
+      }
+    ],
+    "outcome": "failure",
+    "outcome_notes": "Decision did not produce expected results",
+    "created_at": "2025-12-25T21:25:29.847+00:00"
+  },
+  {
+    "id": "006ec469-abea-4165-8702-d82ca22f17fd",
+    "agent": "claudius",
+    "query": "Is build time acceptable (5min)?",
+    "recalled_memory_ids": [
+      "b6b09252-0b2e-4c66-9ac1-a749007a6805",
+      "e5e62fa9-4324-4d7f-b115-7f5cf8a42ff2",
+      "8db487ed-b0b4-46fc-baa9-373c29b89cfd",
+      "094cc8d0-4734-4d6c-add7-6b23ecf3b9e8",
+      "4782fa0a-6849-4884-8a9f-9a750dbc7e53"
+    ],
+    "reasoning": "Very confident based on similar past situations",
+    "chosen_memory_id": "b6b09252-0b2e-4c66-9ac1-a749007a6805",
+    "confidence": 0.94,
+    "alternatives": [
+      {
+        "score": 0.4404176434226289,
+        "memoryId": "29801acf-092f-43ae-b963-0ccfcc2a89d7",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.4292247780895176,
+        "memoryId": "5aa198a2-6f19-411b-9fed-029118df9c64",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.5702981247311861,
+        "memoryId": "af4547f2-0f13-4b5d-ab84-440f344b8914",
+        "reasoning": "Alternative memory considered but not selected"
+      }
+    ],
+    "outcome": "failure",
+    "outcome_notes": "Overconfidence led to unexpected failure",
+    "created_at": "2025-12-26T18:06:52.695+00:00"
+  },
+  {
+    "id": "4b2a1b9f-ac4e-40f1-b112-3a06f7c4610d",
+    "agent": "claudius",
+    "query": "Should I enable caching for this API?",
+    "recalled_memory_ids": [
+      "2c402b82-b588-4710-9d91-3cf49a7273f3",
+      "e5e62fa9-4324-4d7f-b115-7f5cf8a42ff2",
+      "8db487ed-b0b4-46fc-baa9-373c29b89cfd",
+      "094cc8d0-4734-4d6c-add7-6b23ecf3b9e8",
+      "4782fa0a-6849-4884-8a9f-9a750dbc7e53"
+    ],
+    "reasoning": "Very confident based on similar past situations",
+    "chosen_memory_id": "2c402b82-b588-4710-9d91-3cf49a7273f3",
+    "confidence": 0.92,
+    "alternatives": [
+      {
+        "score": 0.5825237576743433,
+        "memoryId": "1e4d0b47-acbe-43ae-83ee-e5fb5309eea3",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.48569453763339143,
+        "memoryId": "0550eb16-0d73-4566-9bad-be5d45ab42dc",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.45609396715855577,
+        "memoryId": "7abcd041-f517-45a9-8bec-0415836e5d1d",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.5747798790981992,
+        "memoryId": "58c0f7f1-c906-4610-bbf5-282eca5e022f",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.5830999917477051,
+        "memoryId": "bcf2ed32-3858-4d66-b736-d8b3770d486c",
+        "reasoning": "Alternative memory considered but not selected"
+      }
+    ],
+    "outcome": "failure",
+    "outcome_notes": "Overconfidence led to unexpected failure",
+    "created_at": "2026-01-01T09:54:58.172+00:00"
+  },
+  {
+    "id": "97491ba3-6e3c-4090-9554-4c503aa876cb",
+    "agent": "claudius",
+    "query": "Is API response time degraded?",
+    "recalled_memory_ids": [
+      "ba30b8ee-4889-4c29-afcb-d4b55d888d0e",
+      "e5e62fa9-4324-4d7f-b115-7f5cf8a42ff2",
+      "8db487ed-b0b4-46fc-baa9-373c29b89cfd",
+      "094cc8d0-4734-4d6c-add7-6b23ecf3b9e8",
+      "4782fa0a-6849-4884-8a9f-9a750dbc7e53"
+    ],
+    "reasoning": "Very confident based on similar past situations",
+    "chosen_memory_id": "ba30b8ee-4889-4c29-afcb-d4b55d888d0e",
+    "confidence": 0.9,
+    "alternatives": [
+      {
+        "score": 0.5920403921115847,
+        "memoryId": "dc75101b-8b52-45f1-9c6b-6a01c9e24283",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.5420351447021738,
+        "memoryId": "9f01618b-826a-40e5-8541-405d01acacb4",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.3716387586551294,
+        "memoryId": "4782fa0a-6849-4884-8a9f-9a750dbc7e53",
+        "reasoning": "Alternative memory considered but not selected"
+      }
+    ],
+    "outcome": "failure",
+    "outcome_notes": "Overconfidence led to unexpected failure",
+    "created_at": "2025-12-29T12:02:12.813+00:00"
+  },
+  {
+    "id": "1326d4df-e19e-4979-9d86-0c1f3460ff79",
+    "agent": "claudius",
+    "query": "Is build time acceptable (5min)?",
+    "recalled_memory_ids": [
+      "22c8b7da-af45-4fb2-bc57-e94c3b36ff18",
+      "e5e62fa9-4324-4d7f-b115-7f5cf8a42ff2",
+      "8db487ed-b0b4-46fc-baa9-373c29b89cfd",
+      "094cc8d0-4734-4d6c-add7-6b23ecf3b9e8",
+      "4782fa0a-6849-4884-8a9f-9a750dbc7e53"
+    ],
+    "reasoning": "Very confident based on similar past situations",
+    "chosen_memory_id": "22c8b7da-af45-4fb2-bc57-e94c3b36ff18",
+    "confidence": 0.9,
+    "alternatives": [
+      {
+        "score": 0.5621811200710892,
+        "memoryId": "0550eb16-0d73-4566-9bad-be5d45ab42dc",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.4411297109634571,
+        "memoryId": "ed20c64a-0d3f-44a5-8905-aaacf9d5c1d8",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.3875002738389763,
+        "memoryId": "57b40672-5b9c-485d-8056-b93ddf4dd5e5",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.5145192181167604,
+        "memoryId": "0768bc39-6d9f-4a0f-ae57-1118b59a2a97",
+        "reasoning": "Alternative memory considered but not selected"
+      }
+    ],
+    "outcome": "failure",
+    "outcome_notes": "Overconfidence led to unexpected failure",
+    "created_at": "2025-12-31T22:54:45.781+00:00"
+  },
+  {
+    "id": "d08c028e-65cc-4f43-9309-6ed45fa0015e",
+    "agent": "claudius",
+    "query": "Is disk space critical (90% used)?",
+    "recalled_memory_ids": [
+      "0a88a213-c5b9-47d6-a07a-5649b5673a6b",
+      "e5e62fa9-4324-4d7f-b115-7f5cf8a42ff2",
+      "8db487ed-b0b4-46fc-baa9-373c29b89cfd",
+      "094cc8d0-4734-4d6c-add7-6b23ecf3b9e8",
+      "4782fa0a-6849-4884-8a9f-9a750dbc7e53"
+    ],
+    "reasoning": "Very confident based on similar past situations",
+    "chosen_memory_id": "0a88a213-c5b9-47d6-a07a-5649b5673a6b",
+    "confidence": 0.88,
+    "alternatives": [
+      {
+        "score": 0.41274095222426727,
+        "memoryId": "8db487ed-b0b4-46fc-baa9-373c29b89cfd",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.3446180745285617,
+        "memoryId": "22c8b7da-af45-4fb2-bc57-e94c3b36ff18",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.44387609953773655,
+        "memoryId": "094cc8d0-4734-4d6c-add7-6b23ecf3b9e8",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.39488257997738657,
+        "memoryId": "9f01618b-826a-40e5-8541-405d01acacb4",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.5323303357982931,
+        "memoryId": "5aa198a2-6f19-411b-9fed-029118df9c64",
+        "reasoning": "Alternative memory considered but not selected"
+      }
+    ],
+    "outcome": "failure",
+    "outcome_notes": "Overconfidence led to unexpected failure",
+    "created_at": "2025-12-28T09:37:05.632+00:00"
+  },
+  {
+    "id": "d3a209d0-11a7-4297-9679-3977b1542061",
+    "agent": "claudius",
+    "query": "Is Redis cache hit rate low?",
+    "recalled_memory_ids": [
+      "cef2a11d-9319-4bef-943b-8ae6b3e6b04c"
+    ],
+    "reasoning": "Limited relevant memories, proceeding cautiously",
+    "chosen_memory_id": "cef2a11d-9319-4bef-943b-8ae6b3e6b04c",
+    "confidence": 0.35,
+    "alternatives": [
+      {
+        "score": 0.5504319362691054,
+        "memoryId": "f37afaba-aa8e-4e09-a97f-21f897b90a4e",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.3030711674242446,
+        "memoryId": "515feca1-fe1d-4d89-9ec8-cd8d78b614bb",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.529936261805056,
+        "memoryId": "58c0f7f1-c906-4610-bbf5-282eca5e022f",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.5471496505328084,
+        "memoryId": "9dcf4622-f753-4f8d-9b3c-371d0cb0b56b",
+        "reasoning": "Alternative memory considered but not selected"
+      }
+    ],
+    "outcome": "success",
+    "outcome_notes": "Cautious approach succeeded despite low confidence",
+    "created_at": "2025-12-30T01:32:24.69+00:00"
+  },
+  {
+    "id": "635a8a77-cc58-4190-bc57-5a85781f2a14",
+    "agent": "claudius",
+    "query": "Should I scale horizontally?",
+    "recalled_memory_ids": [
+      "70e55f7d-786e-4cc5-906e-4e938607bbf6"
+    ],
+    "reasoning": "Limited relevant memories, proceeding cautiously",
+    "chosen_memory_id": "70e55f7d-786e-4cc5-906e-4e938607bbf6",
+    "confidence": 0.33,
+    "alternatives": [
+      {
+        "score": 0.5728380333439403,
+        "memoryId": "13927948-7778-472b-a6bf-3a2b2b5795d5",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.5972918561910208,
+        "memoryId": "af4547f2-0f13-4b5d-ab84-440f344b8914",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.3075614185450976,
+        "memoryId": "067c0e76-08b5-4610-a5f6-d2af85241531",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.5120866507558947,
+        "memoryId": "2c402b82-b588-4710-9d91-3cf49a7273f3",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.48927487069295406,
+        "memoryId": "02449e45-4e3d-4d60-beb0-6816aba45573",
+        "reasoning": "Alternative memory considered but not selected"
+      }
+    ],
+    "outcome": "success",
+    "outcome_notes": "Cautious approach succeeded despite low confidence",
+    "created_at": "2025-12-29T19:09:08.736+00:00"
+  },
+  {
+    "id": "1aee9d57-e13c-448d-8229-e34128273a32",
+    "agent": "claudius",
+    "query": "Is database connection pool exhausted?",
+    "recalled_memory_ids": [
+      "70e55f7d-786e-4cc5-906e-4e938607bbf6"
+    ],
+    "reasoning": "Limited relevant memories, proceeding cautiously",
+    "chosen_memory_id": "70e55f7d-786e-4cc5-906e-4e938607bbf6",
+    "confidence": 0.43,
+    "alternatives": [
+      {
+        "score": 0.5951885549368282,
+        "memoryId": "7abcd041-f517-45a9-8bec-0415836e5d1d",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.40470451885215775,
+        "memoryId": "7ad8d40e-56f3-4813-b740-f69d9615f983",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.5549019768404675,
+        "memoryId": "dc1fed35-6f22-4c4b-a835-1cfcd35b7f72",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.36377804273987385,
+        "memoryId": "d248a887-b587-4376-8a3a-41b638c3d7de",
+        "reasoning": "Alternative memory considered but not selected"
+      }
+    ],
+    "outcome": "success",
+    "outcome_notes": "Cautious approach succeeded despite low confidence",
+    "created_at": "2025-12-27T10:00:49.292+00:00"
+  },
+  {
+    "id": "c681c59f-12f1-4595-9f32-f4fa9ec7ad79",
+    "agent": "claudius",
+    "query": "Is database query slow (>500ms)?",
+    "recalled_memory_ids": [
+      "b6b09252-0b2e-4c66-9ac1-a749007a6805"
+    ],
+    "reasoning": "Limited relevant memories, proceeding cautiously",
+    "chosen_memory_id": "b6b09252-0b2e-4c66-9ac1-a749007a6805",
+    "confidence": 0.49,
+    "alternatives": [
+      {
+        "score": 0.5088756108876423,
+        "memoryId": "9dcf4622-f753-4f8d-9b3c-371d0cb0b56b",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.36030956779706014,
+        "memoryId": "f37afaba-aa8e-4e09-a97f-21f897b90a4e",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.584999831910212,
+        "memoryId": "58c0f7f1-c906-4610-bbf5-282eca5e022f",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.48804771540596015,
+        "memoryId": "067c0e76-08b5-4610-a5f6-d2af85241531",
+        "reasoning": "Alternative memory considered but not selected"
+      }
+    ],
+    "outcome": "success",
+    "outcome_notes": "Cautious approach succeeded despite low confidence",
+    "created_at": "2025-12-29T00:43:03.298+00:00"
+  },
+  {
+    "id": "dc3aafba-df88-442c-abf0-0fc9ef15a81e",
+    "agent": "claudius",
+    "query": "Should I enable caching for this API?",
+    "recalled_memory_ids": [
+      "786342ef-1a5f-4611-8307-9518b3e0c61c"
+    ],
+    "reasoning": "Limited relevant memories, proceeding cautiously",
+    "chosen_memory_id": "786342ef-1a5f-4611-8307-9518b3e0c61c",
+    "confidence": 0.36,
+    "alternatives": [
+      {
+        "score": 0.38417795102764046,
+        "memoryId": "cef2a11d-9319-4bef-943b-8ae6b3e6b04c",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.441415488465162,
+        "memoryId": "1e4d0b47-acbe-43ae-83ee-e5fb5309eea3",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.5519367483059149,
+        "memoryId": "29801acf-092f-43ae-b963-0ccfcc2a89d7",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.37544326788253046,
+        "memoryId": "f37afaba-aa8e-4e09-a97f-21f897b90a4e",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.36416275908240603,
+        "memoryId": "7abcd041-f517-45a9-8bec-0415836e5d1d",
+        "reasoning": "Alternative memory considered but not selected"
+      }
+    ],
+    "outcome": "success",
+    "outcome_notes": "Cautious approach succeeded despite low confidence",
+    "created_at": "2025-12-26T15:59:13.408+00:00"
+  },
+  {
+    "id": "069dfd2e-d438-4901-8d0c-3545f2ecebb5",
+    "agent": "claudius",
+    "query": "Is database connection pool exhausted?",
+    "recalled_memory_ids": [
+      "af4b2c53-d8bf-4a5e-9878-08b5b7afb87a",
+      "e5e62fa9-4324-4d7f-b115-7f5cf8a42ff2",
+      "8db487ed-b0b4-46fc-baa9-373c29b89cfd"
+    ],
+    "reasoning": "Standard decision with moderate confidence",
+    "chosen_memory_id": "af4b2c53-d8bf-4a5e-9878-08b5b7afb87a",
+    "confidence": 0.72,
+    "alternatives": [
+      {
+        "score": 0.5661831445592769,
+        "memoryId": "02449e45-4e3d-4d60-beb0-6816aba45573",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.5673064619059931,
+        "memoryId": "7abcd041-f517-45a9-8bec-0415836e5d1d",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.5420363889473914,
+        "memoryId": "af4547f2-0f13-4b5d-ab84-440f344b8914",
+        "reasoning": "Alternative memory considered but not selected"
+      }
+    ],
+    "outcome": "success",
+    "outcome_notes": "Normal successful operation",
+    "created_at": "2025-12-27T00:21:10.298+00:00"
+  },
+  {
+    "id": "4515c997-b2e7-41c0-84eb-82a8366c8b7e",
+    "agent": "claudius",
+    "query": "Should I enable caching for this API?",
+    "recalled_memory_ids": [
+      "2c402b82-b588-4710-9d91-3cf49a7273f3",
+      "e5e62fa9-4324-4d7f-b115-7f5cf8a42ff2",
+      "8db487ed-b0b4-46fc-baa9-373c29b89cfd"
+    ],
+    "reasoning": "Standard decision with moderate confidence",
+    "chosen_memory_id": "2c402b82-b588-4710-9d91-3cf49a7273f3",
+    "confidence": 0.55,
+    "alternatives": [
+      {
+        "score": 0.5393092265425503,
+        "memoryId": "d7b705cd-889b-402c-bc18-39a43c3980a8",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.4523006359542996,
+        "memoryId": "be10f283-6dc4-43b3-9369-a250fc07dbed",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.41889663294914775,
+        "memoryId": "f37afaba-aa8e-4e09-a97f-21f897b90a4e",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.30246057599703513,
+        "memoryId": "af4547f2-0f13-4b5d-ab84-440f344b8914",
+        "reasoning": "Alternative memory considered but not selected"
+      }
+    ],
+    "outcome": "failure",
+    "outcome_notes": "Standard failure, no surprises",
+    "created_at": "2025-12-26T20:53:57.665+00:00"
+  },
+  {
+    "id": "66447d72-9c36-41d4-9dde-036c1edff4d3",
+    "agent": "claudius",
+    "query": "Should I rotate logs to free space?",
+    "recalled_memory_ids": [
+      "58c0f7f1-c906-4610-bbf5-282eca5e022f",
+      "e5e62fa9-4324-4d7f-b115-7f5cf8a42ff2",
+      "8db487ed-b0b4-46fc-baa9-373c29b89cfd"
+    ],
+    "reasoning": "Standard decision with moderate confidence",
+    "chosen_memory_id": "58c0f7f1-c906-4610-bbf5-282eca5e022f",
+    "confidence": 0.68,
+    "alternatives": [
+      {
+        "score": 0.42683365025985376,
+        "memoryId": "f37afaba-aa8e-4e09-a97f-21f897b90a4e",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.5572705067183754,
+        "memoryId": "a2e81a03-42ce-40f7-b1cb-90725c52e199",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.4673354516326538,
+        "memoryId": "8db487ed-b0b4-46fc-baa9-373c29b89cfd",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.3687757869442635,
+        "memoryId": "af4547f2-0f13-4b5d-ab84-440f344b8914",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.3849778653739261,
+        "memoryId": "7ad8d40e-56f3-4813-b740-f69d9615f983",
+        "reasoning": "Alternative memory considered but not selected"
+      }
+    ],
+    "outcome": "success",
+    "outcome_notes": "Normal successful operation",
+    "created_at": "2025-12-29T13:01:43.618+00:00"
+  },
+  {
+    "id": "7f1c3f0a-cc8b-431a-92b1-7615bde29721",
+    "agent": "claudius",
+    "query": "Should I upgrade Node.js version?",
+    "recalled_memory_ids": [
+      "b6b09252-0b2e-4c66-9ac1-a749007a6805",
+      "e5e62fa9-4324-4d7f-b115-7f5cf8a42ff2",
+      "8db487ed-b0b4-46fc-baa9-373c29b89cfd"
+    ],
+    "reasoning": "Standard decision with moderate confidence",
+    "chosen_memory_id": "b6b09252-0b2e-4c66-9ac1-a749007a6805",
+    "confidence": 0.69,
+    "alternatives": [
+      {
+        "score": 0.5503977519618203,
+        "memoryId": "9f01618b-826a-40e5-8541-405d01acacb4",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.49949555675457724,
+        "memoryId": "fefee2c3-1f69-4715-be38-bf6ef58af63d",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.449346852720821,
+        "memoryId": "cef2a11d-9319-4bef-943b-8ae6b3e6b04c",
+        "reasoning": "Alternative memory considered but not selected"
+      }
+    ],
+    "outcome": "failure",
+    "outcome_notes": "Standard failure, no surprises",
+    "created_at": "2026-01-01T10:08:28.999+00:00"
+  },
+  {
+    "id": "9651b979-0bb5-4b19-b521-cd64429c46b3",
+    "agent": "claudius",
+    "query": "Should I rotate logs to free space?",
+    "recalled_memory_ids": [
+      "786342ef-1a5f-4611-8307-9518b3e0c61c",
+      "e5e62fa9-4324-4d7f-b115-7f5cf8a42ff2",
+      "8db487ed-b0b4-46fc-baa9-373c29b89cfd"
+    ],
+    "reasoning": "Standard decision with moderate confidence",
+    "chosen_memory_id": "786342ef-1a5f-4611-8307-9518b3e0c61c",
+    "confidence": 0.77,
+    "alternatives": [
+      {
+        "score": 0.44885940249311035,
+        "memoryId": "dc75101b-8b52-45f1-9c6b-6a01c9e24283",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.3156985881084053,
+        "memoryId": "58c0f7f1-c906-4610-bbf5-282eca5e022f",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.5849709875906552,
+        "memoryId": "af4b2c53-d8bf-4a5e-9878-08b5b7afb87a",
+        "reasoning": "Alternative memory considered but not selected"
+      },
+      {
+        "score": 0.5591870019388842,
+        "memoryId": "0550eb16-0d73-4566-9bad-be5d45ab42dc",
+        "reasoning": "Alternative memory considered but not selected"
+      }
+    ],
+    "outcome": "failure",
+    "outcome_notes": "Standard failure, no surprises",
+    "created_at": "2025-12-26T01:27:27.176+00:00"
+  }
+]

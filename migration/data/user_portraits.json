@@ -1,0 +1,23 @@
+[
+  {
+    "id": "3778aafe-852c-4488-8b22-e55576905298",
+    "user_id": "claudius",
+    "personality": {},
+    "preferences": {
+      "verbosity": "moderate",
+      "response_style": "balanced",
+      "technical_level": "intermediate"
+    },
+    "expertise": {},
+    "topics": {},
+    "patterns": {
+      "active_hours": [],
+      "common_triggers": [],
+      "preferred_resolution_styles": []
+    },
+    "memory_count": 0,
+    "last_analysis_at": null,
+    "created_at": "2025-12-26T19:54:47.917211+00:00",
+    "updated_at": "2025-12-26T19:54:47.917211+00:00"
+  }
+]

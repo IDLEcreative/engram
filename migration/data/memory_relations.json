@@ -1,0 +1,26 @@
+[
+  {
+    "id": "5eec1e72-77aa-4833-9c64-8fae0b8c19f3",
+    "memory_id": "7564a957-79c3-40f9-a1ce-26f5dfa9c0e0",
+    "subject_entity_id": "474cb57e-764d-4364-ae56-71258fc13fa0",
+    "predicate": "solved",
+    "object_entity_id": "50e4c24f-1346-4479-ac80-be6ac1a6342c",
+    "confidence": 0.7,
+    "created_at": "2026-01-19T11:04:38.942885+00:00",
+    "valid_from": "2026-01-19T11:04:38.897+00:00",
+    "valid_to": null,
+    "relation_status": "active"
+  },
+  {
+    "id": "66667134-e608-45eb-af19-1a5171bef98c",
+    "memory_id": "7564a957-79c3-40f9-a1ce-26f5dfa9c0e0",
+    "subject_entity_id": "68c8ee74-c20c-423d-b34d-ef337b57466c",
+    "predicate": "uses",
+    "object_entity_id": "8aa036d4-37f4-49a8-bcad-df534fbcd9b5",
+    "confidence": 0.6,
+    "created_at": "2026-01-19T11:04:38.942885+00:00",
+    "valid_from": "2026-01-19T11:04:38.897+00:00",
+    "valid_to": null,
+    "relation_status": "active"
+  }
+]

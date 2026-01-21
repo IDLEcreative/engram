@@ -1,0 +1,55 @@
+{
+  "exportedAt": "2026-01-21T00:42:15.497Z",
+  "supabaseUrl": "https://birugqyuqhiahxvxeyqg.supabase.co",
+  "tables": [
+    {
+      "table": "agent_memories",
+      "count": 96
+    },
+    {
+      "table": "memory_entities",
+      "count": 141
+    },
+    {
+      "table": "memory_relations",
+      "count": 2
+    },
+    {
+      "table": "agent_reflection_memos",
+      "count": 2
+    },
+    {
+      "table": "agent_decision_traces",
+      "count": 61
+    },
+    {
+      "table": "counterfactual_simulations",
+      "count": 0
+    },
+    {
+      "table": "discovered_patterns",
+      "count": 3
+    },
+    {
+      "table": "memory_retrieval_feedback",
+      "count": 2
+    },
+    {
+      "table": "user_portraits",
+      "count": 1
+    },
+    {
+      "table": "agent_consensus_votes",
+      "count": 1
+    },
+    {
+      "table": "agent_handoffs",
+      "count": 1
+    },
+    {
+      "table": "agent_workflow_plans",
+      "count": 1
+    }
+  ],
+  "totalRows": 311
+}

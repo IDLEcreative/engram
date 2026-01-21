@@ -1,0 +1,65 @@
+[
+  {
+    "id": "2ef78eab-f904-45f5-8e98-a722535f17ba",
+    "pattern_type": "behavioral",
+    "description": "Agent \"test-agent\" strongly prefers unknown (reward: 1.00)",
+    "occurrences": 1,
+    "confidence": 0.05,
+    "evidence": {
+      "decision_ids": [
+        "1a8be55d-e43d-4bc0-ae41-5834fcd4b827"
+      ]
+    },
+    "actionable_insight": "Prioritize unknown in future memory recall operations",
+    "details": {
+      "inferred_reward_function": "unknown → 100% preference"
+    },
+    "discovered_at": "2026-01-01T13:40:19.231714+00:00",
+    "source_agent": "test-agent",
+    "validated": false,
+    "validated_at": null,
+    "validation_notes": null
+  },
+  {
+    "id": "84e58adc-d360-4b85-8567-76905867e128",
+    "pattern_type": "behavioral",
+    "description": "Agent \"test-agent\" strongly prefers recency_<7days (reward: 1.00)",
+    "occurrences": 1,
+    "confidence": 0.05,
+    "evidence": {
+      "decision_ids": [
+        "1a8be55d-e43d-4bc0-ae41-5834fcd4b827"
+      ]
+    },
+    "actionable_insight": "Prioritize recency_<7days in future memory recall operations",
+    "details": {
+      "inferred_reward_function": "recency_<7days → 100% preference"
+    },
+    "discovered_at": "2026-01-01T13:40:19.231714+00:00",
+    "source_agent": "test-agent",
+    "validated": false,
+    "validated_at": null,
+    "validation_notes": null
+  },
+  {
+    "id": "6338fafe-01c5-4782-83f6-f882a1ffb2fe",
+    "pattern_type": "behavioral",
+    "description": "Agent \"test-agent\" strongly prefers false (reward: 1.00)",
+    "occurrences": 1,
+    "confidence": 0.05,
+    "evidence": {
+      "decision_ids": [
+        "1a8be55d-e43d-4bc0-ae41-5834fcd4b827"
+      ]
+    },
+    "actionable_insight": "Prioritize false in future memory recall operations",
+    "details": {
+      "inferred_reward_function": "false → 100% preference"
+    },
+    "discovered_at": "2026-01-01T13:40:19.231714+00:00",
+    "source_agent": "test-agent",
+    "validated": false,
+    "validated_at": null,
+    "validation_notes": null
+  }
+]

@@ -1,0 +1,40 @@
+[
+  {
+    "id": "7e369bc0-d075-46a8-ba75-a8b4cc30b580",
+    "question": "Test: Which refactoring approach for LOC compliance?",
+    "options": [
+      {
+        "votes": [
+          "agent-1",
+          "agent-3"
+        ],
+        "choice": "Extract to modules",
+        "reasoning": [
+          "Modules improve maintainability",
+          "Aligns with GUIDE_REFACTORING_PATTERNS.md"
+        ]
+      },
+      {
+        "votes": [],
+        "choice": "Use barrel exports",
+        "reasoning": []
+      },
+      {
+        "votes": [
+          "agent-2"
+        ],
+        "choice": "Combine both approaches",
+        "reasoning": [
+          "Combined approach handles edge cases better"
+        ]
+      }
+    ],
+    "winner": "Extract to modules",
+    "winner_reasoning": "Modules improve maintainability | Aligns with GUIDE_REFACTORING_PATTERNS.md",
+    "voting_method": "majority",
+    "status": "closed",
+    "created_by": "orchestrator-agent",
+    "created_at": "2025-12-28T22:25:52.286638+00:00",
+    "closed_at": "2025-12-28T22:25:52.366+00:00"
+  }
+]

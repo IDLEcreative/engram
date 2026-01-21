@@ -1,0 +1,32 @@
+[
+  {
+    "id": "53808a89-0cf0-4351-b070-63a6fc87354b",
+    "memory_id": "c99b1711-fa64-4bac-ada2-33c6a518fa6e",
+    "query_text": "How to fix memory issues?",
+    "query_embedding": null,
+    "was_useful": true,
+    "was_clicked": false,
+    "was_cited": true,
+    "user_rating": 5,
+    "user_correction": null,
+    "computed_relevance": 0.5,
+    "source_agent": "claude-code",
+    "created_at": "2026-01-19T14:51:00.162932+00:00",
+    "correction": null
+  },
+  {
+    "id": "71b8d50c-fe92-401b-8619-f80beacd24ac",
+    "memory_id": "aad94956-9de2-4e55-a4fb-2fe9fc82bdfc",
+    "query_text": "How to fix server issues?",
+    "query_embedding": null,
+    "was_useful": false,
+    "was_clicked": false,
+    "was_cited": false,
+    "user_rating": 2,
+    "user_correction": null,
+    "computed_relevance": 0.5,
+    "source_agent": "claude-code",
+    "created_at": "2026-01-19T14:51:00.803219+00:00",
+    "correction": "This memory was not relevant to the actual issue"
+  }
+]

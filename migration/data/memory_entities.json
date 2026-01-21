@@ -1,0 +1,1271 @@
+[
+  {
+    "id": "65e8c243-4c6b-4584-bf96-54a70150b655",
+    "memory_id": "4e98f933-ba4a-42d8-952d-9460bbea937b",
+    "entity_text": "/opt/langfuse/docker-compose.yml",
+    "entity_type": "FILE",
+    "salience_score": 0.7,
+    "embedding": null,
+    "created_at": "2026-01-08T21:14:27.523243+00:00"
+  },
+  {
+    "id": "894cad4f-412e-4326-9587-762b5d767800",
+    "memory_id": "4e98f933-ba4a-42d8-952d-9460bbea937b",
+    "entity_text": "lib/observability/langfuse-client.ts",
+    "entity_type": "FILE",
+    "salience_score": 0.7,
+    "embedding": null,
+    "created_at": "2026-01-08T21:14:27.523243+00:00"
+  },
+  {
+    "id": "8af72316-9bec-4004-838b-51368a607a30",
+    "memory_id": "4e98f933-ba4a-42d8-952d-9460bbea937b",
+    "entity_text": "lib/agents/remote/audit-logger.ts",
+    "entity_type": "FILE",
+    "salience_score": 0.7,
+    "embedding": null,
+    "created_at": "2026-01-08T21:14:27.523243+00:00"
+  },
+  {
+    "id": "d7f4c1e9-a8e4-4651-9d23-bdad086fa4ef",
+    "memory_id": "4e98f933-ba4a-42d8-952d-9460bbea937b",
+    "entity_text": "app/api/admin/clode/route.ts",
+    "entity_type": "FILE",
+    "salience_score": 0.7,
+    "embedding": null,
+    "created_at": "2026-01-08T21:14:27.523243+00:00"
+  },
+  {
+    "id": "fe1b396d-a04e-42f6-b644-00684e153be5",
+    "memory_id": "4e98f933-ba4a-42d8-952d-9460bbea937b",
+    "entity_text": "PostgreSQL",
+    "entity_type": "TOOL",
+    "salience_score": 0.6,
+    "embedding": null,
+    "created_at": "2026-01-08T21:14:27.523243+00:00"
+  },
+  {
+    "id": "e3583e54-364a-40e0-a2de-61284a66481b",
+    "memory_id": "4e98f933-ba4a-42d8-952d-9460bbea937b",
+    "entity_text": "Docker",
+    "entity_type": "TOOL",
+    "salience_score": 0.6,
+    "embedding": null,
+    "created_at": "2026-01-08T21:14:27.523243+00:00"
+  },
+  {
+    "id": "b6d04428-1559-4679-87da-98d36a1b922e",
+    "memory_id": "b994494c-16c2-48e1-9062-8dea61abe7fc",
+    "entity_text": "by: 1) Removing categorize_email_fallback() function entirely, 2) Using pure AI classification with",
+    "entity_type": "SOLUTION",
+    "salience_score": 0.9,
+    "embedding": null,
+    "created_at": "2026-01-10T19:43:58.193727+00:00"
+  },
+  {
+    "id": "49ee1c82-b04f-43a4-932e-1c7a3ae37ad1",
+    "memory_id": "b994494c-16c2-48e1-9062-8dea61abe7fc",
+    "entity_text": "Claudius Gmail Smart Labels",
+    "entity_type": "CONCEPT",
+    "salience_score": 0.5,
+    "embedding": null,
+    "created_at": "2026-01-10T19:43:58.193727+00:00"
+  },
+  {
+    "id": "81bde818-41c0-4df3-a94e-949c494bd3fe",
+    "memory_id": "91318767-434c-404c-b5bc-10bb1eeee5fd",
+    "entity_text": "by creating /swapfile (4GB), enabling with swapon, and adding to /etc/fstab for persistence",
+    "entity_type": "SOLUTION",
+    "salience_score": 0.9,
+    "embedding": null,
+    "created_at": "2026-01-16T16:58:50.315303+00:00"
+  },
+  {
+    "id": "d4d8b434-08c3-4b61-9427-1d50bb5e6b07",
+    "memory_id": "91318767-434c-404c-b5bc-10bb1eeee5fd",
+    "entity_text": "Night Watch",
+    "entity_type": "CONCEPT",
+    "salience_score": 0.5,
+    "embedding": null,
+    "created_at": "2026-01-16T16:58:50.315303+00:00"
+  },
+  {
+    "id": "ce3da55f-680b-4cd2-ab9c-1f05c2a6999c",
+    "memory_id": "91318767-434c-404c-b5bc-10bb1eeee5fd",
+    "entity_text": "The Doctor",
+    "entity_type": "CONCEPT",
+    "salience_score": 0.5,
+    "embedding": null,
+    "created_at": "2026-01-16T16:58:50.315303+00:00"
+  },
+  {
+    "id": "407757f7-1e98-4042-b474-6e1930d0cca6",
+    "memory_id": "17cad9f9-eb0e-4961-bcf3-8c5184ab1859",
+    "entity_text": "CLAUDE.md",
+    "entity_type": "FILE",
+    "salience_score": 0.7,
+    "embedding": null,
+    "created_at": "2026-01-18T23:26:22.821349+00:00"
+  },
+  {
+    "id": "dad2991b-da1f-405e-9216-096486068a4f",
+    "memory_id": "17cad9f9-eb0e-4961-bcf3-8c5184ab1859",
+    "entity_text": "Claude",
+    "entity_type": "TOOL",
+    "salience_score": 0.6,
+    "embedding": null,
+    "created_at": "2026-01-18T23:26:22.821349+00:00"
+  },
+  {
+    "id": "c918e212-f682-4146-96d7-12e94eb7b18e",
+    "memory_id": "17cad9f9-eb0e-4961-bcf3-8c5184ab1859",
+    "entity_text": "Core Philosophy",
+    "entity_type": "CONCEPT",
+    "salience_score": 0.5,
+    "embedding": null,
+    "created_at": "2026-01-18T23:26:22.821349+00:00"
+  },
+  {
+    "id": "d9d4163b-c3a0-4587-b04c-c86e51b1350b",
+    "memory_id": "e1374c05-6ef7-4545-a9e2-301b10e50044",
+    "entity_text": "Claude",
+    "entity_type": "TOOL",
+    "salience_score": 0.6,
+    "embedding": null,
+    "created_at": "2026-01-19T10:50:45.911315+00:00"
+  },
+  {
+    "id": "956c893f-33c3-4117-b5b5-9acb226a8da3",
+    "memory_id": "8e3d8dc6-3bb0-4b8f-a69b-9a6bd1a57b04",
+    "entity_text": "Christmas Eve",
+    "entity_type": "CONCEPT",
+    "salience_score": 0.5,
+    "embedding": null,
+    "created_at": "2026-01-19T11:56:58.651702+00:00"
+  },
+  {
+    "id": "0d4d97d5-6476-46f4-96aa-dc6caa1c8eaf",
+    "memory_id": "60e4bf9c-86b4-41a8-8e5c-3671585f5114",
+    "entity_text": "Docker",
+    "entity_type": "TOOL",
+    "salience_score": 0.6,
+    "embedding": null,
+    "created_at": "2026-01-19T11:56:58.872739+00:00"
+  },
+  {
+    "id": "53d6b0c4-8e52-4f0d-ac18-2c3cf77d9706",
+    "memory_id": "be5694da-a290-40b7-be36-f0416a3dbef4",
+    "entity_text": "PostgreSQL",
+    "entity_type": "TOOL",
+    "salience_score": 0.6,
+    "embedding": null,
+    "created_at": "2026-01-19T11:56:58.924933+00:00"
+  },
+  {
+    "id": "02de26da-5ca2-4f7d-a18c-c3f2eced5b6a",
+    "memory_id": "be5694da-a290-40b7-be36-f0416a3dbef4",
+    "entity_text": "pgvector",
+    "entity_type": "TOOL",
+    "salience_score": 0.6,
+    "embedding": null,
+    "created_at": "2026-01-19T11:56:58.924933+00:00"
+  },
+  {
+    "id": "be2ed873-81de-4479-aa29-3e617b79e35e",
+    "memory_id": "ba30b8ee-4889-4c29-afcb-d4b55d888d0e",
+    "entity_text": "Docker",
+    "entity_type": "TOOL",
+    "salience_score": 0.6,
+    "embedding": null,
+    "created_at": "2026-01-19T11:56:59.140995+00:00"
+  },
+  {
+    "id": "046e7e7c-dd14-4e00-9c89-ba9e8e1d1cc0",
+    "memory_id": "3f2f4548-9b44-41b9-9741-6d0b30df8eb3",
+    "entity_text": "Docker",
+    "entity_type": "TOOL",
+    "salience_score": 0.6,
+    "embedding": null,
+    "created_at": "2026-01-19T14:37:34.330785+00:00"
+  },
+  {
+    "id": "06187205-bbf8-4ee8-adbb-a8b700c7e75d",
+    "memory_id": "3f2f4548-9b44-41b9-9741-6d0b30df8eb3",
+    "entity_text": "Unlike Docker Desktop",
+    "entity_type": "CONCEPT",
+    "salience_score": 0.5,
+    "embedding": null,
+    "created_at": "2026-01-19T14:37:34.330785+00:00"
+  },
+  {
+    "id": "4676fb39-f3dc-46a5-bdde-2a003aafb325",
+    "memory_id": "3f2f4548-9b44-41b9-9741-6d0b30df8eb3",
+    "entity_text": "Linux Docker",
+    "entity_type": "CONCEPT",
+    "salience_score": 0.5,
+    "embedding": null,
+    "created_at": "2026-01-19T14:37:34.330785+00:00"
+  },
+  {
+    "id": "6273915d-6172-48ae-a8e3-d6b5319c6bc2",
+    "memory_id": "70cfbbe0-f7cc-4ebb-a473-834e0e718900",
+    "entity_text": "Docker",
+    "entity_type": "TOOL",
+    "salience_score": 0.6,
+    "embedding": null,
+    "created_at": "2026-01-20T22:15:29.073632+00:00"
+  },
+  {
+    "id": "8637dc66-0aa9-447f-999c-0cbec1532b60",
+    "memory_id": "f37afaba-aa8e-4e09-a97f-21f897b90a4e",
+    "entity_text": "ReferenceError",
+    "entity_type": "ERROR",
+    "salience_score": 0.7,
+    "embedding": null,
+    "created_at": "2025-12-24T16:46:57.727143+00:00"
+  },
+  {
+    "id": "83d8d217-4f83-4ed3-8d63-31bd9327e048",
+    "memory_id": "f37afaba-aa8e-4e09-a97f-21f897b90a4e",
+    "entity_text": "components/ChatWidget.tsx",
+    "entity_type": "FILE",
+    "salience_score": 0.7,
+    "embedding": null,
+    "created_at": "2025-12-24T16:46:57.895076+00:00"
+  },
+  {
+    "id": "42c60c58-0f77-4959-ae57-aa11377f9444",
+    "memory_id": "f37afaba-aa8e-4e09-a97f-21f897b90a4e",
+    "entity_text": "React",
+    "entity_type": "TOOL",
+    "salience_score": 0.7,
+    "embedding": null,
+    "created_at": "2025-12-24T16:46:57.972863+00:00"
+  },
+  {
+    "id": "1965c4e6-b9d5-409c-9a8a-01f6f945b98e",
+    "memory_id": "d7b705cd-889b-402c-bc18-39a43c3980a8",
+    "entity_text": "TypeError",
+    "entity_type": "ERROR",
+    "salience_score": 0.7,
+    "embedding": null,
+    "created_at": "2025-12-24T16:46:59.254701+00:00"
+  },
+  {
+    "id": "a7b64eb1-91b6-48c6-b92d-e24328fe71cc",
+    "memory_id": "d7b705cd-889b-402c-bc18-39a43c3980a8",
+    "entity_text": "lib/database.ts",
+    "entity_type": "FILE",
+    "salience_score": 0.7,
+    "embedding": null,
+    "created_at": "2025-12-24T16:46:59.316737+00:00"
+  },
+  {
+    "id": "26d9898b-2669-4de1-bafb-9eb73d7315ba",
+    "memory_id": "d7b705cd-889b-402c-bc18-39a43c3980a8",
+    "entity_text": "PostgreSQL",
+    "entity_type": "TOOL",
+    "salience_score": 0.7,
+    "embedding": null,
+    "created_at": "2025-12-24T16:46:59.397352+00:00"
+  },
+  {
+    "id": "a8477744-c46e-4fb5-a005-32a3e97c8240",
+    "memory_id": "d7b705cd-889b-402c-bc18-39a43c3980a8",
+    "entity_text": "Supabase",
+    "entity_type": "TOOL",
+    "salience_score": 0.7,
+    "embedding": null,
+    "created_at": "2025-12-24T16:46:59.463116+00:00"
+  },
+  {
+    "id": "71af88f6-1f3e-467e-a2e1-b2454c69cfcd",
+    "memory_id": "7ad8d40e-56f3-4813-b740-f69d9615f983",
+    "entity_text": "CLAUDE.md",
+    "entity_type": "FILE",
+    "salience_score": 0.7,
+    "embedding": null,
+    "created_at": "2025-12-26T19:56:55.798597+00:00"
+  },
+  {
+    "id": "260afdab-edfd-41e7-af28-3592b16e0b5e",
+    "memory_id": "7ad8d40e-56f3-4813-b740-f69d9615f983",
+    "entity_text": "CLAUDE",
+    "entity_type": "TOOL",
+    "salience_score": 0.6,
+    "embedding": null,
+    "created_at": "2025-12-26T19:56:55.798597+00:00"
+  },
+  {
+    "id": "31f80a42-0d77-4b60-ac0c-6bb88c23d1de",
+    "memory_id": "0a88a213-c5b9-47d6-a07a-5649b5673a6b",
+    "entity_text": "No Roman",
+    "entity_type": "CONCEPT",
+    "salience_score": 0.5,
+    "embedding": null,
+    "created_at": "2025-12-26T19:56:57.933814+00:00"
+  },
+  {
+    "id": "24e4bec0-f04d-4b02-90c1-205558fa8213",
+    "memory_id": "2c402b82-b588-4710-9d91-3cf49a7273f3",
+    "entity_text": "CLAUDE.md",
+    "entity_type": "FILE",
+    "salience_score": 0.7,
+    "embedding": null,
+    "created_at": "2025-12-27T14:18:08.421403+00:00"
+  },
+  {
+    "id": "eac84a1a-5b1b-44d1-8d25-cfe47f3bbd80",
+    "memory_id": "2c402b82-b588-4710-9d91-3cf49a7273f3",
+    "entity_text": "MEMORY.md",
+    "entity_type": "FILE",
+    "salience_score": 0.7,
+    "embedding": null,
+    "created_at": "2025-12-27T14:18:08.421403+00:00"
+  },
+  {
+    "id": "3faca756-a6b8-48fa-a1b4-2a0518756826",
+    "memory_id": "2c402b82-b588-4710-9d91-3cf49a7273f3",
+    "entity_text": "CLAUDE",
+    "entity_type": "TOOL",
+    "salience_score": 0.6,
+    "embedding": null,
+    "created_at": "2025-12-27T14:18:08.421403+00:00"
+  },
+  {
+    "id": "fdf74e50-d7e2-47ca-a85f-1c5820eadee9",
+    "memory_id": "e5e62fa9-4324-4d7f-b115-7f5cf8a42ff2",
+    "entity_text": "memory timeline functions (get_memory_timeline and search_memories_in_timerange) - they were failing",
+    "entity_type": "SOLUTION",
+    "salience_score": 0.9,
+    "embedding": null,
+    "created_at": "2025-12-27T14:22:26.47842+00:00"
+  },
+  {
+    "id": "819ac760-4d45-4981-a966-d4772a95e545",
+    "memory_id": "e5e62fa9-4324-4d7f-b115-7f5cf8a42ff2",
+    "entity_text": "PostgreSQL",
+    "entity_type": "TOOL",
+    "salience_score": 0.6,
+    "embedding": null,
+    "created_at": "2025-12-27T14:22:26.47842+00:00"
+  },
+  {
+    "id": "e2bcad39-8027-44d9-8f81-2b4356285748",
+    "memory_id": "2b2f3f99-2637-4cbe-9f2e-600f2bdbc871",
+    "entity_text": "causal paths",
+    "entity_type": "SOLUTION",
+    "salience_score": 0.9,
+    "embedding": null,
+    "created_at": "2025-12-30T23:25:41.94102+00:00"
+  },
+  {
+    "id": "2724fb48-41db-4c7b-84a7-bbbc977be87d",
+    "memory_id": "cef2a11d-9319-4bef-943b-8ae6b3e6b04c",
+    "entity_text": "Support/Claude/claude_desktop_config.json",
+    "entity_type": "FILE",
+    "salience_score": 0.7,
+    "embedding": null,
+    "created_at": "2025-12-30T23:25:43.067029+00:00"
+  },
+  {
+    "id": "c99b46f9-7244-4bf9-94fc-0d9ed8fd93d8",
+    "memory_id": "cef2a11d-9319-4bef-943b-8ae6b3e6b04c",
+    "entity_text": "Claude",
+    "entity_type": "TOOL",
+    "salience_score": 0.6,
+    "embedding": null,
+    "created_at": "2025-12-30T23:25:43.067029+00:00"
+  },
+  {
+    "id": "d7822501-2b56-4a44-bad2-d2e87aa01c4e",
+    "memory_id": "cef2a11d-9319-4bef-943b-8ae6b3e6b04c",
+    "entity_text": "Application Support",
+    "entity_type": "CONCEPT",
+    "salience_score": 0.5,
+    "embedding": null,
+    "created_at": "2025-12-30T23:25:43.067029+00:00"
+  },
+  {
+    "id": "588ccea7-47d9-413e-85eb-142b3fe36322",
+    "memory_id": "cef2a11d-9319-4bef-943b-8ae6b3e6b04c",
+    "entity_text": "Restart Claude Code",
+    "entity_type": "CONCEPT",
+    "salience_score": 0.5,
+    "embedding": null,
+    "created_at": "2025-12-30T23:25:43.067029+00:00"
+  },
+  {
+    "id": "5c192719-0744-4b46-b7cb-18fb53ebbace",
+    "memory_id": "786342ef-1a5f-4611-8307-9518b3e0c61c",
+    "entity_text": "OpenAI",
+    "entity_type": "TOOL",
+    "salience_score": 0.6,
+    "embedding": null,
+    "created_at": "2025-12-30T23:25:44.072593+00:00"
+  },
+  {
+    "id": "7f7ea2d4-9732-432a-ba2d-c298da02a950",
+    "memory_id": "4d7bb9cd-e2d1-4f1f-ad5a-f5c798c7bcf4",
+    "entity_text": "pgvector",
+    "entity_type": "TOOL",
+    "salience_score": 0.6,
+    "embedding": null,
+    "created_at": "2025-12-30T23:25:44.6082+00:00"
+  },
+  {
+    "id": "aeac24c1-93d1-4569-a1ac-5f8cde12c840",
+    "memory_id": "22c8b7da-af45-4fb2-bc57-e94c3b36ff18",
+    "entity_text": "scripts/test-graph-tools.ts",
+    "entity_type": "FILE",
+    "salience_score": 0.7,
+    "embedding": null,
+    "created_at": "2025-12-30T23:25:45.635452+00:00"
+  },
+  {
+    "id": "cdf56dd6-d269-4232-a171-9e39ee70f2a1",
+    "memory_id": "22c8b7da-af45-4fb2-bc57-e94c3b36ff18",
+    "entity_text": "node",
+    "entity_type": "TOOL",
+    "salience_score": 0.6,
+    "embedding": null,
+    "created_at": "2025-12-30T23:25:45.635452+00:00"
+  },
+  {
+    "id": "df7787ed-b1cd-4ce7-a8f2-6b788cf0f225",
+    "memory_id": "bb4c3c65-294b-436d-85fe-71f5603c96d5",
+    "entity_text": "Docker",
+    "entity_type": "TOOL",
+    "salience_score": 0.6,
+    "embedding": null,
+    "created_at": "2025-12-31T21:16:56.10836+00:00"
+  },
+  {
+    "id": "5e883e15-9eb1-4001-8639-f85abb800224",
+    "memory_id": "bb4c3c65-294b-436d-85fe-71f5603c96d5",
+    "entity_text": "Docker",
+    "entity_type": "TOOL",
+    "salience_score": 0.8,
+    "embedding": null,
+    "created_at": "2025-12-31T21:16:56.243483+00:00"
+  },
+  {
+    "id": "95781ab6-1002-4164-994d-f97abc16ca80",
+    "memory_id": "bb4c3c65-294b-436d-85fe-71f5603c96d5",
+    "entity_text": "systemd",
+    "entity_type": "TOOL",
+    "salience_score": 0.8,
+    "embedding": null,
+    "created_at": "2025-12-31T21:16:56.301859+00:00"
+  },
+  {
+    "id": "b274f918-219a-47cd-b62d-33be3cd3bc3d",
+    "memory_id": "6af87ff2-0536-43e4-aaca-9207ac9ad5ef",
+    "entity_text": "Nginx",
+    "entity_type": "TOOL",
+    "salience_score": 0.8,
+    "embedding": null,
+    "created_at": "2025-12-31T21:16:58.40988+00:00"
+  },
+  {
+    "id": "cfd7f6a9-69dd-47fd-947e-3ee9c3bab8ea",
+    "memory_id": "6af87ff2-0536-43e4-aaca-9207ac9ad5ef",
+    "entity_text": "Port 80",
+    "entity_type": "CONCEPT",
+    "salience_score": 0.8,
+    "embedding": null,
+    "created_at": "2025-12-31T21:16:58.569396+00:00"
+  },
+  {
+    "id": "b9124287-8d4c-468e-aa90-5aa6aa418607",
+    "memory_id": "69efe8c2-68b4-4341-ae89-e6ba6c0c3ca9",
+    "entity_text": "Redis",
+    "entity_type": "TOOL",
+    "salience_score": 0.6,
+    "embedding": null,
+    "created_at": "2025-12-31T21:17:00.311052+00:00"
+  },
+  {
+    "id": "913bd03c-598e-48cf-9371-b60e1f987e2c",
+    "memory_id": "69efe8c2-68b4-4341-ae89-e6ba6c0c3ca9",
+    "entity_text": "Redis",
+    "entity_type": "TOOL",
+    "salience_score": 0.8,
+    "embedding": null,
+    "created_at": "2025-12-31T21:17:00.372082+00:00"
+  },
+  {
+    "id": "1533ba6a-60e6-466f-a320-ab4e1763ff75",
+    "memory_id": "69efe8c2-68b4-4341-ae89-e6ba6c0c3ca9",
+    "entity_text": "Caching",
+    "entity_type": "CONCEPT",
+    "salience_score": 0.8,
+    "embedding": null,
+    "created_at": "2025-12-31T21:17:00.434535+00:00"
+  },
+  {
+    "id": "1da5647c-3d6f-4362-af15-54c01cd3c641",
+    "memory_id": "14ae1d9e-881d-4bad-9e98-4618f82ecb45",
+    "entity_text": "Redis",
+    "entity_type": "TOOL",
+    "salience_score": 0.6,
+    "embedding": null,
+    "created_at": "2025-12-31T21:17:02.128242+00:00"
+  },
+  {
+    "id": "0ea9aa1d-b4f8-421d-b4e5-487af039241c",
+    "memory_id": "14ae1d9e-881d-4bad-9e98-4618f82ecb45",
+    "entity_text": "Redis 7.0",
+    "entity_type": "TOOL",
+    "salience_score": 0.9,
+    "embedding": null,
+    "created_at": "2025-12-31T21:17:02.190442+00:00"
+  },
+  {
+    "id": "b47254f5-e7c1-4bd2-83c6-de974f78705b",
+    "memory_id": "0a98e8b3-61e7-4e8e-a9b4-f3f3ade2a20d",
+    "entity_text": "PostgreSQL",
+    "entity_type": "TOOL",
+    "salience_score": 0.6,
+    "embedding": null,
+    "created_at": "2025-12-31T21:17:02.966749+00:00"
+  },
+  {
+    "id": "85e0b572-2d49-455b-a0be-2be3b646c7eb",
+    "memory_id": "0a98e8b3-61e7-4e8e-a9b4-f3f3ade2a20d",
+    "entity_text": "PostgreSQL",
+    "entity_type": "TOOL",
+    "salience_score": 0.8,
+    "embedding": null,
+    "created_at": "2025-12-31T21:17:03.020375+00:00"
+  },
+  {
+    "id": "eb8c0476-1c61-4d97-9100-089e28ee7d30",
+    "memory_id": "0a98e8b3-61e7-4e8e-a9b4-f3f3ade2a20d",
+    "entity_text": "NoSQL",
+    "entity_type": "CONCEPT",
+    "salience_score": 0.8,
+    "embedding": null,
+    "created_at": "2025-12-31T21:17:03.076698+00:00"
+  },
+  {
+    "id": "280cff8e-fd85-43c4-9a25-14e7dc5f5186",
+    "memory_id": "a1303d18-5887-4355-851d-34fdf2a8ef61",
+    "entity_text": "Kubernetes",
+    "entity_type": "TOOL",
+    "salience_score": 0.6,
+    "embedding": null,
+    "created_at": "2025-12-31T21:17:04.15949+00:00"
+  },
+  {
+    "id": "979afe8d-23a8-4241-87ee-0ef9cd1e1104",
+    "memory_id": "a1303d18-5887-4355-851d-34fdf2a8ef61",
+    "entity_text": "Kubernetes",
+    "entity_type": "TOOL",
+    "salience_score": 0.9,
+    "embedding": null,
+    "created_at": "2025-12-31T21:17:04.215986+00:00"
+  },
+  {
+    "id": "1778cd0d-4abe-43a0-bb0e-0a463080aa0b",
+    "memory_id": "c4dc060e-ac69-4860-bdda-c68cd3799801",
+    "entity_text": "Memory Monitor",
+    "entity_type": "CONCEPT",
+    "salience_score": 0.5,
+    "embedding": null,
+    "created_at": "2026-01-16T17:04:47.41676+00:00"
+  },
+  {
+    "id": "5a6ccd79-67b4-4526-a573-0d3a4467a736",
+    "memory_id": "fa0af1c9-4372-4771-838a-b210726d3e85",
+    "entity_text": "Claude",
+    "entity_type": "TOOL",
+    "salience_score": 0.6,
+    "embedding": null,
+    "created_at": "2026-01-19T10:52:23.968248+00:00"
+  },
+  {
+    "id": "b58909e0-be20-44fe-ba84-b749ba00662d",
+    "memory_id": "fa0af1c9-4372-4771-838a-b210726d3e85",
+    "entity_text": "Fresh Claude",
+    "entity_type": "CONCEPT",
+    "salience_score": 0.5,
+    "embedding": null,
+    "created_at": "2026-01-19T10:52:23.968248+00:00"
+  },
+  {
+    "id": "a3d2c994-3bb4-4247-8146-d58ab0da340d",
+    "memory_id": "70e55f7d-786e-4cc5-906e-4e938607bbf6",
+    "entity_text": "root cause",
+    "entity_type": "SOLUTION",
+    "salience_score": 0.9,
+    "embedding": null,
+    "created_at": "2026-01-19T11:56:58.752662+00:00"
+  },
+  {
+    "id": "32e0fff2-6f9b-46e7-a1f6-7f735956b187",
+    "memory_id": "70e55f7d-786e-4cc5-906e-4e938607bbf6",
+    "entity_text": "Python",
+    "entity_type": "TOOL",
+    "salience_score": 0.6,
+    "embedding": null,
+    "created_at": "2026-01-19T11:56:58.752662+00:00"
+  },
+  {
+    "id": "38400d68-87f8-454e-a957-9839a7a93193",
+    "memory_id": "70e55f7d-786e-4cc5-906e-4e938607bbf6",
+    "entity_text": "Claude",
+    "entity_type": "TOOL",
+    "salience_score": 0.6,
+    "embedding": null,
+    "created_at": "2026-01-19T11:56:58.752662+00:00"
+  },
+  {
+    "id": "ebaa0582-0b22-4ec4-9676-3c150e1c7722",
+    "memory_id": "70e55f7d-786e-4cc5-906e-4e938607bbf6",
+    "entity_text": "Doctor Agent",
+    "entity_type": "CONCEPT",
+    "salience_score": 0.5,
+    "embedding": null,
+    "created_at": "2026-01-19T11:56:58.752662+00:00"
+  },
+  {
+    "id": "78df9a38-047c-46dc-a7d4-64445e972c94",
+    "memory_id": "82741022-de14-4bc1-85b2-3c0ee6b4716a",
+    "entity_text": "Claude",
+    "entity_type": "TOOL",
+    "salience_score": 0.6,
+    "embedding": null,
+    "created_at": "2026-01-19T11:56:58.986577+00:00"
+  },
+  {
+    "id": "f5ee242e-881c-47a5-8b4e-4dac1413bc12",
+    "memory_id": "82741022-de14-4bc1-85b2-3c0ee6b4716a",
+    "entity_text": "Claude Code",
+    "entity_type": "CONCEPT",
+    "salience_score": 0.5,
+    "embedding": null,
+    "created_at": "2026-01-19T11:56:58.986577+00:00"
+  },
+  {
+    "id": "98e7f8ef-8920-472f-a88e-81da815212e3",
+    "memory_id": "d3a10ed1-16ce-4945-8e3b-dabe1d2b5eaa",
+    "entity_text": "Docker",
+    "entity_type": "TOOL",
+    "salience_score": 0.6,
+    "embedding": null,
+    "created_at": "2026-01-19T14:49:03.771218+00:00"
+  },
+  {
+    "id": "c75083ea-8b91-4db8-809a-484e73cf7b58",
+    "memory_id": "bcf2ed32-3858-4d66-b736-d8b3770d486c",
+    "entity_text": "D3.js",
+    "entity_type": "FILE",
+    "salience_score": 0.7,
+    "embedding": null,
+    "created_at": "2026-01-01T02:17:33.50074+00:00"
+  },
+  {
+    "id": "d2d5ffe8-be86-4575-ae44-0ca585d79ae7",
+    "memory_id": "bcf2ed32-3858-4d66-b736-d8b3770d486c",
+    "entity_text": "Cytoscape.js",
+    "entity_type": "FILE",
+    "salience_score": 0.7,
+    "embedding": null,
+    "created_at": "2026-01-01T02:17:33.50074+00:00"
+  },
+  {
+    "id": "43c1ac90-f4ac-413c-bc81-970565fe9f52",
+    "memory_id": "bcf2ed32-3858-4d66-b736-d8b3770d486c",
+    "entity_text": "React",
+    "entity_type": "TOOL",
+    "salience_score": 0.6,
+    "embedding": null,
+    "created_at": "2026-01-01T02:17:33.50074+00:00"
+  },
+  {
+    "id": "5ed6ea39-a79c-4c88-a055-c6eea95b9ad9",
+    "memory_id": "bcf2ed32-3858-4d66-b736-d8b3770d486c",
+    "entity_text": "Docker",
+    "entity_type": "TOOL",
+    "salience_score": 0.6,
+    "embedding": null,
+    "created_at": "2026-01-01T02:17:33.50074+00:00"
+  },
+  {
+    "id": "dc493d63-d01b-4504-86c3-4256f230f588",
+    "memory_id": "bcf2ed32-3858-4d66-b736-d8b3770d486c",
+    "entity_text": "React Flow",
+    "entity_type": "CONCEPT",
+    "salience_score": 0.5,
+    "embedding": null,
+    "created_at": "2026-01-01T02:17:33.50074+00:00"
+  },
+  {
+    "id": "4053ff70-4dcf-474f-ba09-63a880f625df",
+    "memory_id": "7283ca5f-8a57-4118-92d5-f089104840ca",
+    "entity_text": "Calling Claudius",
+    "entity_type": "CONCEPT",
+    "salience_score": 0.5,
+    "embedding": null,
+    "created_at": "2026-01-01T23:50:39.536151+00:00"
+  },
+  {
+    "id": "25cb5deb-4059-4a12-a24a-87fb20d61919",
+    "memory_id": "f0cf45cc-0c87-4504-b338-a5e611a972d4",
+    "entity_text": "Error",
+    "entity_type": "ERROR",
+    "salience_score": 0.8,
+    "embedding": null,
+    "created_at": "2026-01-02T01:49:48.588723+00:00"
+  },
+  {
+    "id": "b5102b7c-8753-4b55-9675-6246414f7f60",
+    "memory_id": "f0cf45cc-0c87-4504-b338-a5e611a972d4",
+    "entity_text": "System Health",
+    "entity_type": "CONCEPT",
+    "salience_score": 0.5,
+    "embedding": null,
+    "created_at": "2026-01-02T01:49:48.588723+00:00"
+  },
+  {
+    "id": "0a35ca51-5006-4bb5-a1ae-b6186b801d8a",
+    "memory_id": "e36aa846-46d3-494a-ae37-8a16495c2686",
+    "entity_text": "TypeError",
+    "entity_type": "ERROR",
+    "salience_score": 0.8,
+    "embedding": null,
+    "created_at": "2026-01-02T10:21:02.83363+00:00"
+  },
+  {
+    "id": "e29d22b3-d2b1-471c-8532-067376e8b9d7",
+    "memory_id": "e36aa846-46d3-494a-ae37-8a16495c2686",
+    "entity_text": "Calling Claudius",
+    "entity_type": "CONCEPT",
+    "salience_score": 0.5,
+    "embedding": null,
+    "created_at": "2026-01-02T10:21:02.83363+00:00"
+  },
+  {
+    "id": "9b5acf4f-1229-41ac-be07-26414fa772a7",
+    "memory_id": "305cfa4f-fa86-4d6e-a3b0-f63670552cd0",
+    "entity_text": "/opt/claudius/calendar-nudge.py",
+    "entity_type": "FILE",
+    "salience_score": 0.7,
+    "embedding": null,
+    "created_at": "2026-01-07T22:23:21.901334+00:00"
+  },
+  {
+    "id": "2a4eda17-8d52-4580-ade2-1b303ca9c826",
+    "memory_id": "305cfa4f-fa86-4d6e-a3b0-f63670552cd0",
+    "entity_text": "/tmp/calendar_nudges_sent.json",
+    "entity_type": "FILE",
+    "salience_score": 0.7,
+    "embedding": null,
+    "created_at": "2026-01-07T22:23:21.901334+00:00"
+  },
+  {
+    "id": "bd3c25d3-d7e1-4a03-9869-62fc24dd3de6",
+    "memory_id": "305cfa4f-fa86-4d6e-a3b0-f63670552cd0",
+    "entity_text": "/opt/claudius/google-token-refresh.py",
+    "entity_type": "FILE",
+    "salience_score": 0.7,
+    "embedding": null,
+    "created_at": "2026-01-07T22:23:21.901334+00:00"
+  },
+  {
+    "id": "1aedfe21-9629-4737-885c-f29be3ef1481",
+    "memory_id": "305cfa4f-fa86-4d6e-a3b0-f63670552cd0",
+    "entity_text": "Calendar Nudge System Implementation",
+    "entity_type": "CONCEPT",
+    "salience_score": 0.5,
+    "embedding": null,
+    "created_at": "2026-01-07T22:23:21.901334+00:00"
+  },
+  {
+    "id": "278d122b-6091-4e7d-9181-a014546541a7",
+    "memory_id": "305cfa4f-fa86-4d6e-a3b0-f63670552cd0",
+    "entity_text": "Google Calendar",
+    "entity_type": "CONCEPT",
+    "salience_score": 0.5,
+    "embedding": null,
+    "created_at": "2026-01-07T22:23:21.901334+00:00"
+  },
+  {
+    "id": "966e918f-b859-46b8-b7a2-b8aafa665754",
+    "memory_id": "18886e31-af9b-443a-89f2-7a06058cf1d1",
+    "entity_text": "/opt/claudius/james-communication-profile.md",
+    "entity_type": "FILE",
+    "salience_score": 0.7,
+    "embedding": null,
+    "created_at": "2026-01-07T22:53:35.59897+00:00"
+  },
+  {
+    "id": "7156bfc5-27f4-4ef7-9685-8236e45d4770",
+    "memory_id": "18886e31-af9b-443a-89f2-7a06058cf1d1",
+    "entity_text": "James Guy",
+    "entity_type": "CONCEPT",
+    "salience_score": 0.5,
+    "embedding": null,
+    "created_at": "2026-01-07T22:53:35.59897+00:00"
+  },
+  {
+    "id": "7a46e653-5d49-412f-824a-318fcbb3f5ae",
+    "memory_id": "18886e31-af9b-443a-89f2-7a06058cf1d1",
+    "entity_text": "Heya Mate",
+    "entity_type": "CONCEPT",
+    "salience_score": 0.5,
+    "embedding": null,
+    "created_at": "2026-01-07T22:53:35.59897+00:00"
+  },
+  {
+    "id": "42353d62-20b6-4bca-ab7d-ea185af66fee",
+    "memory_id": "18886e31-af9b-443a-89f2-7a06058cf1d1",
+    "entity_text": "Omni Ops",
+    "entity_type": "CONCEPT",
+    "salience_score": 0.5,
+    "embedding": null,
+    "created_at": "2026-01-07T22:53:35.59897+00:00"
+  },
+  {
+    "id": "8430e84f-c3c4-4875-a349-230f69662248",
+    "memory_id": "109d3fe1-859c-4160-8680-d0b32edd7887",
+    "entity_text": "CLAUDE.md",
+    "entity_type": "FILE",
+    "salience_score": 0.7,
+    "embedding": null,
+    "created_at": "2026-01-08T00:32:42.585514+00:00"
+  },
+  {
+    "id": "ff5f24c7-45c7-4884-b01d-070d5636093f",
+    "memory_id": "109d3fe1-859c-4160-8680-d0b32edd7887",
+    "entity_text": "CLAUDE",
+    "entity_type": "TOOL",
+    "salience_score": 0.6,
+    "embedding": null,
+    "created_at": "2026-01-08T00:32:42.585514+00:00"
+  },
+  {
+    "id": "85d5159a-d189-426d-a2e8-a41c0946d39d",
+    "memory_id": "109d3fe1-859c-4160-8680-d0b32edd7887",
+    "entity_text": "Added Time Awareness",
+    "entity_type": "CONCEPT",
+    "salience_score": 0.5,
+    "embedding": null,
+    "created_at": "2026-01-08T00:32:42.585514+00:00"
+  },
+  {
+    "id": "0491038f-f03f-41cf-92c8-5b2f6e81dbeb",
+    "memory_id": "4f009fcb-3bcf-4f89-9f87-17fe0955f023",
+    "entity_text": "Claude",
+    "entity_type": "TOOL",
+    "salience_score": 0.6,
+    "embedding": null,
+    "created_at": "2026-01-08T12:13:35.777102+00:00"
+  },
+  {
+    "id": "ac29e1d6-6a34-456e-bea3-c2e417b63ad5",
+    "memory_id": "4f009fcb-3bcf-4f89-9f87-17fe0955f023",
+    "entity_text": "When Claude",
+    "entity_type": "CONCEPT",
+    "salience_score": 0.5,
+    "embedding": null,
+    "created_at": "2026-01-08T12:13:35.777102+00:00"
+  },
+  {
+    "id": "dea50714-336d-415e-81a7-766737cd7783",
+    "memory_id": "754d0b4c-bafc-433c-89b3-86df03cbbab3",
+    "entity_text": "with chmod +x)",
+    "entity_type": "SOLUTION",
+    "salience_score": 0.9,
+    "embedding": null,
+    "created_at": "2026-01-08T20:57:25.421636+00:00"
+  },
+  {
+    "id": "4ecbaae3-6d15-4bce-87d9-ca1db74f1a3d",
+    "memory_id": "754d0b4c-bafc-433c-89b3-86df03cbbab3",
+    "entity_text": "health-monitor.sh",
+    "entity_type": "FILE",
+    "salience_score": 0.7,
+    "embedding": null,
+    "created_at": "2026-01-08T20:57:25.421636+00:00"
+  },
+  {
+    "id": "a7ed01c8-3aec-405e-a47c-07d68b664390",
+    "memory_id": "754d0b4c-bafc-433c-89b3-86df03cbbab3",
+    "entity_text": "redis",
+    "entity_type": "TOOL",
+    "salience_score": 0.6,
+    "embedding": null,
+    "created_at": "2026-01-08T20:57:25.421636+00:00"
+  },
+  {
+    "id": "dd30d96a-9e05-4dc3-a684-1905a2b26069",
+    "memory_id": "754d0b4c-bafc-433c-89b3-86df03cbbab3",
+    "entity_text": "claude",
+    "entity_type": "TOOL",
+    "salience_score": 0.6,
+    "embedding": null,
+    "created_at": "2026-01-08T20:57:25.421636+00:00"
+  },
+  {
+    "id": "1111b7e8-c023-49ea-b7a8-26ac9b0c03d9",
+    "memory_id": "754d0b4c-bafc-433c-89b3-86df03cbbab3",
+    "entity_text": "Docker",
+    "entity_type": "TOOL",
+    "salience_score": 0.6,
+    "embedding": null,
+    "created_at": "2026-01-08T20:57:25.421636+00:00"
+  },
+  {
+    "id": "d489aa5b-747c-415f-82dd-4fba3192ccdb",
+    "memory_id": "754d0b4c-bafc-433c-89b3-86df03cbbab3",
+    "entity_text": "All Docker",
+    "entity_type": "CONCEPT",
+    "salience_score": 0.5,
+    "embedding": null,
+    "created_at": "2026-01-08T20:57:25.421636+00:00"
+  },
+  {
+    "id": "61ca898e-ee40-4d36-a7b1-6ed433a72b3b",
+    "memory_id": "a1303d18-5887-4355-851d-34fdf2a8ef61",
+    "entity_text": "Container Orchestration",
+    "entity_type": "CONCEPT",
+    "salience_score": 0.9,
+    "embedding": null,
+    "created_at": "2025-12-31T21:17:04.280279+00:00"
+  },
+  {
+    "id": "82f33383-e653-4237-86c1-c7fe6c308675",
+    "memory_id": "0eff3bf2-0b9d-4194-8961-00f990eafb69",
+    "entity_text": "cycles, it can spawn 6+ claude sessions = 500+ threads, hitting the systemd TasksMax=500 limit",
+    "entity_type": "SOLUTION",
+    "salience_score": 0.9,
+    "embedding": null,
+    "created_at": "2026-01-16T17:51:54.127574+00:00"
+  },
+  {
+    "id": "0391758f-9a51-4007-8ac5-31660778b40a",
+    "memory_id": "0eff3bf2-0b9d-4194-8961-00f990eafb69",
+    "entity_text": "Restart claudius-api service and kill stale claude processes",
+    "entity_type": "SOLUTION",
+    "salience_score": 0.9,
+    "embedding": null,
+    "created_at": "2026-01-16T17:51:54.127574+00:00"
+  },
+  {
+    "id": "a64ddd6a-b6b3-45ee-ad0d-d5801119b596",
+    "memory_id": "0eff3bf2-0b9d-4194-8961-00f990eafb69",
+    "entity_text": "Node.js",
+    "entity_type": "FILE",
+    "salience_score": 0.7,
+    "embedding": null,
+    "created_at": "2026-01-16T17:51:54.127574+00:00"
+  },
+  {
+    "id": "aa7e5f3a-8a39-468e-ad52-99e85fd658c9",
+    "memory_id": "0eff3bf2-0b9d-4194-8961-00f990eafb69",
+    "entity_text": "night-watch-v3.py",
+    "entity_type": "FILE",
+    "salience_score": 0.7,
+    "embedding": null,
+    "created_at": "2026-01-16T17:51:54.127574+00:00"
+  },
+  {
+    "id": "2b9850eb-4885-4dfe-9e00-2a7a25599af1",
+    "memory_id": "0eff3bf2-0b9d-4194-8961-00f990eafb69",
+    "entity_text": "supabase",
+    "entity_type": "TOOL",
+    "salience_score": 0.6,
+    "embedding": null,
+    "created_at": "2026-01-16T17:51:54.127574+00:00"
+  },
+  {
+    "id": "559ad84b-ac1e-4906-b839-e695ada81aab",
+    "memory_id": "0eff3bf2-0b9d-4194-8961-00f990eafb69",
+    "entity_text": "Node",
+    "entity_type": "TOOL",
+    "salience_score": 0.6,
+    "embedding": null,
+    "created_at": "2026-01-16T17:51:54.127574+00:00"
+  },
+  {
+    "id": "41333bc5-af80-4152-bdc6-004e79c128ac",
+    "memory_id": "0eff3bf2-0b9d-4194-8961-00f990eafb69",
+    "entity_text": "claude",
+    "entity_type": "TOOL",
+    "salience_score": 0.6,
+    "embedding": null,
+    "created_at": "2026-01-16T17:51:54.127574+00:00"
+  },
+  {
+    "id": "c2f0b195-7177-49b3-89de-c0f7e9d2c863",
+    "memory_id": "0eff3bf2-0b9d-4194-8961-00f990eafb69",
+    "entity_text": "stripe",
+    "entity_type": "TOOL",
+    "salience_score": 0.6,
+    "embedding": null,
+    "created_at": "2026-01-16T17:51:54.127574+00:00"
+  },
+  {
+    "id": "ebacf12e-6633-4b32-865b-3a54207119f0",
+    "memory_id": "7564a957-79c3-40f9-a1ce-26f5dfa9c0e0",
+    "entity_text": "TypeError in night-watch",
+    "entity_type": "SOLUTION",
+    "salience_score": 0.9,
+    "embedding": null,
+    "created_at": "2026-01-19T11:04:38.886122+00:00"
+  },
+  {
+    "id": "5ccb3479-cd9e-47cb-a257-70f9b2ab2546",
+    "memory_id": "fed378b1-48e6-40e9-a062-f60a61fedae6",
+    "entity_text": "self-healer.py",
+    "entity_type": "FILE",
+    "salience_score": 0.7,
+    "embedding": null,
+    "created_at": "2026-01-01T23:33:00.281728+00:00"
+  },
+  {
+    "id": "e9ac8f53-c55b-4182-a4a5-eb1e068d7366",
+    "memory_id": "fed378b1-48e6-40e9-a062-f60a61fedae6",
+    "entity_text": "Docker",
+    "entity_type": "TOOL",
+    "salience_score": 0.6,
+    "embedding": null,
+    "created_at": "2026-01-01T23:33:00.281728+00:00"
+  },
+  {
+    "id": "141e2c27-3836-4a3a-9ed7-e9299b8bdec6",
+    "memory_id": "fed378b1-48e6-40e9-a062-f60a61fedae6",
+    "entity_text": "Uses Unix",
+    "entity_type": "CONCEPT",
+    "salience_score": 0.5,
+    "embedding": null,
+    "created_at": "2026-01-01T23:33:00.281728+00:00"
+  },
+  {
+    "id": "0a52f2f5-d742-47e6-8b93-65bd53292c10",
+    "memory_id": "0e26c351-5c9c-43c0-abb7-8a909c4f365a",
+    "entity_text": "nextjs",
+    "entity_type": "TOOL",
+    "salience_score": 0.6,
+    "embedding": null,
+    "created_at": "2026-01-01T23:52:26.442229+00:00"
+  },
+  {
+    "id": "6bb1645a-cb49-4bf3-921f-3a6e9d3543a9",
+    "memory_id": "a36b35d9-c5ae-4b08-9d45-cf8d7b422e22",
+    "entity_text": "Config Loader",
+    "entity_type": "CONCEPT",
+    "salience_score": 0.5,
+    "embedding": null,
+    "created_at": "2026-01-02T01:42:40.72197+00:00"
+  },
+  {
+    "id": "0fd720f4-1252-42e2-bc01-5533eaeaa995",
+    "memory_id": "9b16fb82-897a-4dc8-a9bc-2f0127057006",
+    "entity_text": "/opt/claudius/calendar-nudge.py",
+    "entity_type": "FILE",
+    "salience_score": 0.7,
+    "embedding": null,
+    "created_at": "2026-01-07T22:25:33.480731+00:00"
+  },
+  {
+    "id": "ed49ade2-74c8-4625-992a-93ba227992c0",
+    "memory_id": "9b16fb82-897a-4dc8-a9bc-2f0127057006",
+    "entity_text": "/opt/claudius/calendar-nudge-credentials.json",
+    "entity_type": "FILE",
+    "salience_score": 0.7,
+    "embedding": null,
+    "created_at": "2026-01-07T22:25:33.480731+00:00"
+  },
+  {
+    "id": "9ca82c77-f6d3-4cfb-8060-09544bb6306c",
+    "memory_id": "9b16fb82-897a-4dc8-a9bc-2f0127057006",
+    "entity_text": "/opt/claudius/google-token-refresh.py",
+    "entity_type": "FILE",
+    "salience_score": 0.7,
+    "embedding": null,
+    "created_at": "2026-01-07T22:25:33.480731+00:00"
+  },
+  {
+    "id": "11f63205-5631-43ad-af9f-ed4c45315940",
+    "memory_id": "9b16fb82-897a-4dc8-a9bc-2f0127057006",
+    "entity_text": "go",
+    "entity_type": "TOOL",
+    "salience_score": 0.6,
+    "embedding": null,
+    "created_at": "2026-01-07T22:25:33.480731+00:00"
+  },
+  {
+    "id": "c7688e13-bbc9-4bd2-a8bb-c44b3c5d801f",
+    "memory_id": "9b16fb82-897a-4dc8-a9bc-2f0127057006",
+    "entity_text": "Uses Google Calendar",
+    "entity_type": "CONCEPT",
+    "salience_score": 0.5,
+    "embedding": null,
+    "created_at": "2026-01-07T22:25:33.480731+00:00"
+  },
+  {
+    "id": "01cb2133-dd8e-4346-ad4c-ab2facba8b30",
+    "memory_id": "1b0c7ad7-b659-49fb-8db9-7556294fad63",
+    "entity_text": "CLAUDE.md",
+    "entity_type": "FILE",
+    "salience_score": 0.7,
+    "embedding": null,
+    "created_at": "2026-01-08T00:32:40.067515+00:00"
+  },
+  {
+    "id": "78607a9b-6e7d-4a15-87e4-18a8d10e2154",
+    "memory_id": "1b0c7ad7-b659-49fb-8db9-7556294fad63",
+    "entity_text": "CLAUDE",
+    "entity_type": "TOOL",
+    "salience_score": 0.6,
+    "embedding": null,
+    "created_at": "2026-01-08T00:32:40.067515+00:00"
+  },
+  {
+    "id": "c44f877a-e73c-40ad-9f00-f9b49e18bf6f",
+    "memory_id": "1b0c7ad7-b659-49fb-8db9-7556294fad63",
+    "entity_text": "Added Three",
+    "entity_type": "CONCEPT",
+    "salience_score": 0.5,
+    "embedding": null,
+    "created_at": "2026-01-08T00:32:40.067515+00:00"
+  },
+  {
+    "id": "848e9cdf-04f0-48cc-ae42-33a73994a100",
+    "memory_id": "1b0c7ad7-b659-49fb-8db9-7556294fad63",
+    "entity_text": "Step Rule",
+    "entity_type": "CONCEPT",
+    "salience_score": 0.5,
+    "embedding": null,
+    "created_at": "2026-01-08T00:32:40.067515+00:00"
+  },
+  {
+    "id": "2d2991ea-c714-4c8c-8d23-4d1b8548e429",
+    "memory_id": "7564a957-79c3-40f9-a1ce-26f5dfa9c0e0",
+    "entity_text": "was to check if obj exists before calling obj",
+    "entity_type": "SOLUTION",
+    "salience_score": 0.9,
+    "embedding": null,
+    "created_at": "2026-01-19T11:04:38.886122+00:00"
+  },
+  {
+    "id": "474cb57e-764d-4364-ae56-71258fc13fa0",
+    "memory_id": "7564a957-79c3-40f9-a1ce-26f5dfa9c0e0",
+    "entity_text": "to check if obj exists before calling obj",
+    "entity_type": "SOLUTION",
+    "salience_score": 0.9,
+    "embedding": null,
+    "created_at": "2026-01-19T11:04:38.886122+00:00"
+  },
+  {
+    "id": "b4c42314-2001-4696-aba2-97910a63650f",
+    "memory_id": "cf399001-d6b9-4ba8-b59f-93d32400d8b5",
+    "entity_text": "implemented: Created /usr/local/bin/docker-compose-safe wrapper that (1) logs ALL docker-compose com",
+    "entity_type": "SOLUTION",
+    "salience_score": 0.9,
+    "embedding": null,
+    "created_at": "2026-01-08T21:00:49.287208+00:00"
+  },
+  {
+    "id": "4ae3d9d5-2578-4558-b063-b1a4a8564e3e",
+    "memory_id": "cf399001-d6b9-4ba8-b59f-93d32400d8b5",
+    "entity_text": "CLAUDE.md",
+    "entity_type": "FILE",
+    "salience_score": 0.7,
+    "embedding": null,
+    "created_at": "2026-01-08T21:00:49.287208+00:00"
+  },
+  {
+    "id": "858aa93f-5703-47b8-a0b4-e07ddbf84703",
+    "memory_id": "cf399001-d6b9-4ba8-b59f-93d32400d8b5",
+    "entity_text": "CLAUDE",
+    "entity_type": "TOOL",
+    "salience_score": 0.6,
+    "embedding": null,
+    "created_at": "2026-01-08T21:00:49.287208+00:00"
+  },
+  {
+    "id": "d497e81d-78b0-4df9-a642-05510b8d6702",
+    "memory_id": "cf399001-d6b9-4ba8-b59f-93d32400d8b5",
+    "entity_text": "docker",
+    "entity_type": "TOOL",
+    "salience_score": 0.6,
+    "embedding": null,
+    "created_at": "2026-01-08T21:00:49.287208+00:00"
+  },
+  {
+    "id": "dfe31919-173b-4c88-966e-c59aa9b72a27",
+    "memory_id": "cf399001-d6b9-4ba8-b59f-93d32400d8b5",
+    "entity_text": "Updated Claudius",
+    "entity_type": "CONCEPT",
+    "salience_score": 0.5,
+    "embedding": null,
+    "created_at": "2026-01-08T21:00:49.287208+00:00"
+  },
+  {
+    "id": "50e4c24f-1346-4479-ac80-be6ac1a6342c",
+    "memory_id": "7564a957-79c3-40f9-a1ce-26f5dfa9c0e0",
+    "entity_text": "TypeError",
+    "entity_type": "ERROR",
+    "salience_score": 0.8,
+    "embedding": null,
+    "created_at": "2026-01-19T11:04:38.886122+00:00"
+  },
+  {
+    "id": "68c8ee74-c20c-423d-b34d-ef337b57466c",
+    "memory_id": "7564a957-79c3-40f9-a1ce-26f5dfa9c0e0",
+    "entity_text": "night-watch.py",
+    "entity_type": "FILE",
+    "salience_score": 0.7,
+    "embedding": null,
+    "created_at": "2026-01-19T11:04:38.886122+00:00"
+  },
+  {
+    "id": "69892ba5-a718-4d44-b86d-8b74bf7ac2da",
+    "memory_id": "7564a957-79c3-40f9-a1ce-26f5dfa9c0e0",
+    "entity_text": "PostgreSQL",
+    "entity_type": "TOOL",
+    "salience_score": 0.6,
+    "embedding": null,
+    "created_at": "2026-01-19T11:04:38.886122+00:00"
+  },
+  {
+    "id": "8aa036d4-37f4-49a8-bcad-df534fbcd9b5",
+    "memory_id": "7564a957-79c3-40f9-a1ce-26f5dfa9c0e0",
+    "entity_text": "Python",
+    "entity_type": "TOOL",
+    "salience_score": 0.6,
+    "embedding": null,
+    "created_at": "2026-01-19T11:04:38.886122+00:00"
+  },
+  {
+    "id": "08575294-733a-4710-88e5-80aa4419fa79",
+    "memory_id": "4a7ab1b8-a625-4011-a110-3154dfc0ebfe",
+    "entity_text": "Docker",
+    "entity_type": "TOOL",
+    "salience_score": 0.6,
+    "embedding": null,
+    "created_at": "2026-01-19T11:56:58.810917+00:00"
+  },
+  {
+    "id": "a300e3a8-64cf-417e-80e6-a7dd146ebd10",
+    "memory_id": "e718f312-a693-485d-acc4-27e25c3669c8",
+    "entity_text": "Server Status",
+    "entity_type": "CONCEPT",
+    "salience_score": 0.5,
+    "embedding": null,
+    "created_at": "2026-01-19T11:56:59.039649+00:00"
+  },
+  {
+    "id": "cd74aac5-18fc-4497-8941-0693258ccac1",
+    "memory_id": "cea17a1b-807d-494b-ad7c-aed6751c1c24",
+    "entity_text": "Redis",
+    "entity_type": "TOOL",
+    "salience_score": 0.6,
+    "embedding": null,
+    "created_at": "2026-01-19T14:49:22.198733+00:00"
+  }
+]

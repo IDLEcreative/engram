@@ -1,0 +1,24 @@
+[
+  {
+    "id": "f661c6d9-b156-4bb2-8309-91183d8d0ec4",
+    "decision_trace_id": null,
+    "reflection_text": "Context: User said they expected the server to be down but found it was actually running fine, testing the action recording system\n\nAction: Investigated the action recording pipeline and found that CRON_SECRET auth was failing while ADMIN_SECRET worked. Traced through multiple log files and API calls to identify the issue.\n\nOutcome: success",
+    "was_reasoning_optimal": true,
+    "meta_d_score": 0.9,
+    "improvement_target": null,
+    "pattern_detected": null,
+    "created_at": "2026-01-20T22:54:33.303825+00:00",
+    "source_agent": "claudius"
+  },
+  {
+    "id": "5d1100ee-587f-481c-9fc9-ca935ff1f6b9",
+    "decision_trace_id": null,
+    "reflection_text": "Context: User said they expected the server to be down but found it was actually running fine, testing the action recording system\n\nAction: Investigated the action recording pipeline and found that CRON_SECRET auth was failing while ADMIN_SECRET worked. Traced through multiple log files and API calls to identify the issue.\n\nOutcome: success",
+    "was_reasoning_optimal": true,
+    "meta_d_score": 0.9,
+    "improvement_target": null,
+    "pattern_detected": null,
+    "created_at": "2026-01-20T22:54:39.055602+00:00",
+    "source_agent": "claudius"
+  }
+]
