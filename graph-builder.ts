@@ -4,14 +4,14 @@
  * Integrates lib/memory-graphs with the MCP server.
  */
 
-import { buildSemanticGraph } from '../../../lib/memory-graphs/semantic-graph';
-import { buildTemporalGraph } from '../../../lib/memory-graphs/temporal-graph';
-import { buildEntityGraph } from '../../../lib/memory-graphs/entity-graph';
+import { buildSemanticGraph } from './lib/memory-graphs/semantic-graph';
+import { buildTemporalGraph } from './lib/memory-graphs/temporal-graph';
+import { buildEntityGraph } from './lib/memory-graphs/entity-graph';
 import type {
   SemanticGraphOptions,
   TemporalGraphOptions,
   EntityGraphOptions,
-} from '../../../lib/memory-graphs/types';
+} from './lib/memory-graphs/types';
 import { parseTemporalOptions } from './temporal-helpers';
 import {
   generateSemanticInsights,
@@ -19,7 +19,7 @@ import {
   generateEntityInsights,
 } from './graph-insights';
 import { PREVIEW_ITEM_COUNT, CONTENT_PREVIEW_LENGTH, MIN_CONNECTIONS_NON_ISOLATED } from './constants';
-import { TOP_N_LIMITS } from '../../../lib/constants/pagination';
+import { TOP_N_LIMITS } from './lib/constants/pagination';
 
 /**
  * Handle build_semantic_graph MCP tool

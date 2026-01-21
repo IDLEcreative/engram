@@ -12,7 +12,7 @@ import { query } from './db/client';
 import { listDecisions } from './decision-operations';
 import { validateAgentName } from './memory-helpers';
 import type { DiscoveredPattern } from './pattern-discovery';
-import { TOP_N_LIMITS } from '../../../lib/constants/pagination';
+import { TOP_N_LIMITS } from './lib/constants/pagination';
 
 // =============================================================================
 // Types

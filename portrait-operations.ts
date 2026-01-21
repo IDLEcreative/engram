@@ -6,7 +6,7 @@
  */
 
 import { query, queryOne } from './db/client';
-import { TOP_N_LIMITS } from '../../../lib/constants/pagination';
+import { TOP_N_LIMITS } from './lib/constants/pagination';
 
 // =============================================================================
 // Types

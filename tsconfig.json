@@ -1,8 +1,8 @@
 {
   "compilerOptions": {
     "target": "ES2022",
-    "module": "NodeNext",
-    "moduleResolution": "NodeNext",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
     "strict": false,
@@ -11,7 +11,8 @@
     "declaration": true,
     "declarationMap": true,
     "sourceMap": true,
-    "rootDir": "."
+    "rootDir": ".",
+    "resolveJsonModule": true
   },
   "ts-node": {
     "esm": true,
@@ -23,6 +24,7 @@
     "consolidation/**/*.ts",
     "db/**/*.ts",
     "handlers/**/*.ts",
+    "lib/**/*.ts",
     "scripts/**/*.ts"
   ],
   "exclude": ["node_modules", "dist", "__tests__", "coverage"]

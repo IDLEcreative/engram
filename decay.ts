@@ -17,7 +17,7 @@
  * @updated 2026-01-21 - Changed from exponential to power law decay
  */
 
-import { query, queryOne } from '../db/client';
+import { query, queryOne } from './db/client';
 
 // =============================================================================
 // Constants (Research-backed values from ACT-R)

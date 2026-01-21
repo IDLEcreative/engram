@@ -7,7 +7,7 @@
 
 import { query } from './db/client';
 import type { DecisionTrace } from './decision-operations';
-import { TOP_N_LIMITS } from '../../../lib/constants/pagination';
+import { TOP_N_LIMITS } from './lib/constants/pagination';
 
 // =============================================================================
 // Types
